@@ -1,0 +1,113 @@
+doctype html
+html(lang='fr')
+    head
+        meta(charset='UTF-8')
+        title  NOT FOUND
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css')
+        link(rel='stylesheet', href='/stylesheets/exploring/css/style.css')
+        link(rel='stylesheet', href='/stylesheets/bootstrap-3.3.7.min.css')
+    body
+        .container-fluid.navbar-inverse
+            #menu_header.navbar-header.navbar-right
+                a.navbar-brand(href='https://www.facebook.com/unchantnouveaunancy/')
+                    img#head_church(src='/images/logo_facebook.jpg', alt='')
+                a.navbar-brand(href='https://www.youtube.com/channel/UCoF7SzgKMqLuzyHJ2YUespg')
+                    img#head_youtube(src='/images/logo_youtube.jpg', alt='')
+        .navbar.navbar-default(role='navigation')
+            #menu_border.container-fluid
+                .navbar-header
+                    // Brand and toggle get grouped for better mobile display
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#menu_ucn', aria-expanded='false')
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                div
+                    a(href='/')
+                        img#image_menu.navbar-header.navbar-left(src='/images/logo_mini.jpg', alt='')
+                div
+                    img#image_menu_2.navbar-header.navbar-left(src='/images/blank.jpg', alt='')
+                div
+                    img#image_menu_3.navbar-header.navbar-left(src='/images/blank.jpg', alt='')
+                #menu_ucn.collapse.navbar-collapse
+                    ul.nav.navbar-nav
+                        li
+                            a(href='accueil') Accueil
+                        li
+                            a(href='presentation') Qui sommes nous?
+                        li.dropdown
+                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                                | Activités
+                                span.caret
+                            ul.dropdown-menu
+                                li.active
+                                    a(href='activites') ACTIVITES
+                                li
+                                    a(href='jeunesse') JEUNESSE
+                                li
+                                    a(href='intercession') INTERCESSION
+                                li
+                                    a(href='louange') LOUANGE
+                                li
+                                    a(href='club') LE CLUB
+                                li
+                                    a(href='femmes') GROUPE DES FEMMES
+                                li
+                                    a(href='equipe_accueil') EQUIPE D'ACCUEIL
+                                li
+                                    a(href='media') EQUIPE SONO
+                                li
+                                    a(href='chant_nouveau_belgique') UN CHANT NOUVEAU BELGIQUE
+                                li
+                                    a(href='chant_nouveau_dieuze') UN CHANT NOUVEAU DIEUZE
+                        li
+                            a(href='enseignements') Predications
+                        li
+                            a(href='exhortations') Exhortations
+                        li.dropdown
+                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                                | Cultes
+                                span.caret
+                            ul.dropdown-menu
+                                li
+                                    a(href='main_culte') CULTE PRINCIPAL
+                                li
+                                    a(href='culte_anglophone') CULTE BILINGUE
+                                li
+                                    a(href='culte_russophone') CULTE RUSSOPHONE
+                        li
+                            a(href='photos') Photos
+                        li.dropdown
+                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                                | Programmes
+                                span.caret
+                            ul.dropdown-menu
+                                li
+                                    a(href='horaires') HORAIRES
+                                li
+                                    a(href='evenements') EVENEMENTS
+                        li
+                            a(href='billeterie_concert') Concert
+                        li
+                            a(href='contact') Contact
+                        li
+                            a(href='search')
+                                img#search_tag(src='/images/glyphicons-28-search.png', alt='')
+        #body_container
+            h1  PAGE NON TROUVEE
+            h1 code 404
+        footer
+            .myFooter.navbar
+                .footer-wrap
+                    #site-footer-bottom.site-footer-style-center
+                        .container
+                            .row
+                                #site-footer-custom-area.col-md-12
+                                    .row
+                                        p#text_center Copyright 2017 - Un Chant Nouveau - Tous droits réservés.
+        script(src='/javascripts/jquery-3.1.1.min.js')
+        script(src='/javascripts/exploring/js/views.js')
+        script(src='/javascripts/zoomImages.js')
+        script(src='/javascripts/bootstrap-3.3.7.min.js')
+

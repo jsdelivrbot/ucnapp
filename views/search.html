@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+</head>
+
+<body>
+<div w3-include-html="/html/header_bar.html"></div>
+<div w3-include-html="/html/menu.html"></div>
+<div id="body_search">
+
+    <div>
+        <h1 class="title">Recherche</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+            <p class="lead">
+                <i>"Pour effectuer une recherche sur notre site saisissez votre rêquete sur la case ci-dessous:"</i><br>
+            </p>
+            <script>
+                (function() {
+                    var cx = '014174543110972974394:qyhmxjxe98q';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+            <gcse:search></gcse:search>
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+    </div>
+
+</div>
+<br><br><br><br><br><br>
+<footer>
+    <div w3-include-html="/html/footer.html"></div>
+</footer>
+
+<!--<script src="https://addsearch.com/js/?key=989a952cafa52dccdcc8a56114c8cac1"></script>-->
+<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<script src="/javascripts/lightbox/lightbox.js"></script>
+<script>
+    lightbox.option({
+        'alwaysShowNavOnTouchDevices': true
+    });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+<script src="/javascripts/exploring/js/index.js"></script>
+<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
+<script src="/javascripts/w3.js"></script>
+<script> w3.includeHTML();</script>
+</body>
+</html>
