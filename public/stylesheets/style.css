@@ -1,7 +1,8 @@
 /*Bar de recherche dimension*/
-#addsearch-results{
+#addsearch-results {
     width: 300%;
 }
+
 /**********************************************************************************************************************/
 /*BODY */
 body {
@@ -9,73 +10,82 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-#body_search h1{
+#body_search h1 {
     margin: 0 auto;
     background-color: lightgrey;
-    padding-left:200px;
+    padding-left: 200px;
 
 }
-#body_comments{
+
+#body_comments {
     width: 80%;
     margin: 0 auto;
 }
-#body_comments p,#body_container_speach h3{
+
+#body_comments p, #body_container_speach h3 {
     text-align: justify;
 }
+
 /**********************************************************************************************************************/
 
 /*BODY CONTAINER*/
-#body_container{
-  width: 80%;
-  margin: 0 auto;
-}
-#body_container_p, #body_container_speach,#body_container_ex,#body_container_songs,#body_container_photos{
+#body_container {
     width: 80%;
     margin: 0 auto;
 }
-#body_container_p p{
-   font-size: 130%;
+
+#body_container_p, #body_container_speach, #body_container_ex, #body_container_songs, #body_container_photos {
+    width: 80%;
+    margin: 0 auto;
 }
 
-#body_container_p div>h3{
+#body_container_p p {
+    font-size: 130%;
+}
+
+#body_container_p div > h3 {
     text-align: center;
 }
 
-#body_container_photos div>h3{
+#body_container_photos div > h3 {
     text-align: left;
 }
-#body_container_ex p{
+
+#body_container_ex p {
     text-align: justify;
     font-size: 120%;
 }
+
 /**********************************************************************************************************************/
 
 /*Collapse nav bar*/
-.collapse li{
+.collapse li {
     color: #00B7FF;
 }
+
 /**********************************************************************************************************************/
 
 /*BORDER IMAGE*/
-#border_image div>h3,#body_container_songs div>h3,#body_container_songs div>ul>li>h4{
+#border_image div > h3, #body_container_songs div > h3, #body_container_songs div > ul > li > h4 {
     text-align: justify;
 }
 
-#border_image div>a>img{
+#border_image div > a > img {
     border-radius: 50%;
     width: 250px;
     height: 250px;
 }
 
-#border_image_1 div>a>img{
+#border_image_1 div > a > img {
     border-radius: 50%;
     width: 400px;
     height: 400px;
 }
 
-#border_image_1 h2,h3,h4,p{
+#border_image_1 h2, h3, h4, p {
     text-align: center;
 }
+
 /**********************************************************************************************************************/
 
 /*FOOTER*/
@@ -87,27 +97,30 @@ footer {
 /**********************************************************************************************************************/
 
 /*IFRAME VIDEO***/
-#iframe_video{
+#iframe_video {
     /*border-radius: 5%;*/
-    width:420px;
-    height:380px
+    width: 420px;
+    height: 380px
 }
+
 /**********************************************************************************************************************/
 
 /*MENU HEADER ET BORDER*/
-#menu_header{
+#menu_header {
     border-radius: 50%;
 }
 
-#menu_border{
+#menu_border {
     width: 80%;
 }
+
 /**********************************************************************************************************************/
 
 /*NAV BAR*/
-.navbar-header a{
+.navbar-header a {
     color: deepskyblue;
 }
+
 /**********************************************************************************************************************/
 
 /*Photos margin-right*/
@@ -115,6 +128,7 @@ footer {
 #Photos_UCN img {
     margin-right: 5px;
 }
+
 /**********************************************************************************************************************/
 
 /*TEXT ALIGN*/
@@ -126,23 +140,26 @@ footer {
     text-align: justify;
     font-size: 130%;
 }
+
 #text_center {
-  text-align: center;
-  justify-content:center;
+    text-align: center;
+    justify-content: center;
 }
 
 #text_center p {
     text-align: justify;
 }
+
 #text_center_1 {
     text-align: justify;
 }
+
 #text_center_2 {
     text-align: left;
 }
 
 /*UL CENTER*/
-#ul_center h2{
+#ul_center h2 {
     text-align: justify;
 }
 
@@ -152,55 +169,182 @@ footer {
 }
 
 /*SMALL SCREEN*/
-@media (max-width: 990px) {
-  .navbar-header {
-    float: none;
-  }
-  .navbar-toggle {
-    display: block;
-  }
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-collapse.collapse {
-    display: none!important;
-  }
-  .navbar-nav {
-    float: none!important;
-    margin: 7px -15px;
-  }
-  .navbar-nav>li {
-    float: none;
-  }
-  .navbar-default .navbar-nav>.active>a,
-  .navbar-nav>li>a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 500px;
-    border-left: 5vw solid #178ACC;
-    height: 40px;
-    font-size: 16px;
-    color: #f4ebeb;
-    background-color: #000;
-  }
-  .navbar-default .navbar-nav > li > a > span {
-    display:inline-block;
-    vertical-align: middle;
-    padding-top: 5px;
-    padding-left: 2px;
-  }
-  .navbar-text {
-    float: none;
-    margin: 15px 0;
-  }
-  /* since 3.1.0 */
-  .navbar-collapse.collapse.in {
-    display: block!important;
-  }
-  .collapsing {
-    overflow: hidden!important;
-  }
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-nav > li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 500px;
+        border-left: 5vw solid #178ACC;
+        height: 40px;
+        font-size: 16px;
+        /*color: #f4ebeb;*/
+        /*background-color: #000;*/
+        color:ghostwhite;
+        background-color:ghostwhite;
+    }
+
+    .navbar-default .navbar-nav > li > a > span {
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+
+    #head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
+    #groupe_intercession_head, #intercession_1, #intercession_2, #groupe_louange_head, #louange_1, #louange_2,
+    #club_1, #club_2, #club_3, #groupe_femmes_head, #femmes_2, #femmes_1, #equipe_accueil, #equipe_accueil_1,
+    #equipe_accueil_2, #equipe_media, #equipe_media_1, #chant_nouveau_belgique, #belgique_1, #belgique_2,
+    #chant_nouveau_dieuze, #dieuze_1, #dieuze_2, #church_1, #tata_vicky, #church_3, #church_5, #russophone,
+    #groupe_russophone, #church_6, #louange_team, #groupe_russophone_head, #groupe_anglophonne_head, #logo,
+    #veille, #nuit,#international{
+        width: 190px;
+        height: 190px;
+    }
+
+    #plan_acces_map, #contact_us, #bus_tram {
+        width: 200px;
+        height: 200px;
+    }
+
+    #border_image div > a > img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    #border_image_1 div > a > img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-nav > li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 500px;
+        border-left: 5vw solid #178ACC;
+        height: 40px;
+        font-size: 16px;
+        color:ghostwhite;
+        background-color:ghostwhite;
+    }
+
+    .navbar-default .navbar-nav > li > a > span {
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+
+    #head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
+    #groupe_intercession_head, #intercession_1, #intercession_2, #groupe_louange_head, #louange_1, #louange_2,
+    #club_1, #club_2, #club_3, #groupe_femmes_head, #femmes_2, #femmes_1, #equipe_accueil, #equipe_accueil_1,
+    #equipe_accueil_2, #equipe_media, #equipe_media_1, #chant_nouveau_belgique, #belgique_1, #belgique_2,
+    #chant_nouveau_dieuze, #dieuze_1, #dieuze_2, #church_1, #tata_vicky, #church_3, #church_5, #russophone,
+    #groupe_russophone, #church_6, #louange_team, #groupe_russophone_head, #groupe_anglophonne_head, #logo,
+    #veille, #nuit,#international {
+        width: 250px;
+        height: 250px;
+    }
+
+    #plan_acces_map, #contact_us, #bus_tram {
+        width: 200px;
+        height: 200px;
+    }
+    #border_image div > a > img {
+        border-radius: 50%;
+        width: 190px;
+        height: 190px;
+    }
+    #border_image_1 div > a > img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
 }
 /**********************************************************************************************************************/
 /*!****************************************Image zoom css**************************************************************/
