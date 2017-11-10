@@ -2,24 +2,22 @@
   "name": "ucnapp",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/index"
+  "description": "Site web de l'Eglise Un Chant Nouveau Nancy (UCN)",
+  "engines": {
+    "node": "6.11.1"
   },
-  "devDependencies": {
-    "mocha": "2.3.3",
-    "moment": "^2.10.6",
-    "replaceall": "^0.1.6",
-    "should": "~7.1.0",
-    "xml-mapping": "^1.7.0",
-    "rewire": "^2.5.2",
-    "supertest": "^2.0.0"
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "author": {
     "name": "Francis BONDO",
     "email": "frbondo@gmail.com"
   },
-  "description": "Site web de l'Eglise Un Chant Nouveau Nancy (UCN)",
   "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2",
     "JSONSelect": "^0.4.0",
     "async": "2.1.2",
     "basic-auth": "^1.0.3",
@@ -30,7 +28,6 @@
     "cookie-session": "^2.0.0-beta.2",
     "debug": "~0.7.4",
     "elasticsearch": "~13.0.0",
-    "express": "~4.0.0",
     "express-useragent": "^0.2.0",
     "express-zip": "^2.0.1",
     "file-stream-rotator": "0.0.6",
@@ -64,5 +61,26 @@
     "unidecode": "^0.1.8",
     "yamljs": "^0.2.8",
     "zipstream": "^0.2.1"
-  }
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0",
+    "mocha": "2.3.3",
+    "moment": "^2.10.6",
+    "replaceall": "^0.1.6",
+    "should": "~7.1.0",
+    "xml-mapping": "^1.7.0",
+    "rewire": "^2.5.2",
+    "supertest": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

@@ -1,62 +1,273 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Un chant Nouveau</title>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
 
-<!--*************************slider header***************************************************************************-->
-<svg id="icons" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="icon-arrow" viewBox="0 0 476.213 476.213">
-        <polygon fill="inherit"
-                 points="347.5,324.393 253.353,418.541 253.353,0 223.353,0 223.353,419.033 128.713,324.393 107.5,345.607,238.107,476.213 368.713,345.606 "/>
-    </symbol>
+<div class="fh5co-loader"></div>
 
-</svg>
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container-wrap">
+            <div class="top-menu">
+                <div class="row">
+                    <div class="col-md-12 col-offset-0 text-center">
+                        <a href="accueil.html" data-lightbox="roadtrip"><img id="head_church"
+                                                                             src="/images/logo_eglise.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-md-12 col-md-offset-0 text-center menu-1">
+                        <ul>
+                            <li class=""><a href="accueil">Accueil</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">Notre mission<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class=""><a href="presentation">QUI SOMMES NOUS?</a></li>
+                                </ul>
+                            </li>
 
-<div class="slider-content">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">Activités<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class=""><a href="/activites">PRESENTATION GENERALE</a></li>
+                                    <li class=""><a href="/activites/jeunesse">JEUNESSE</a></li>
+                                    <li class=""><a href="/activites/intercession">INTERCESSION</a></li>
+                                    <li class=""><a href="/activites/louange">LOUANGE</a></li>
+                                    <li class=""><a href="/activites/club">LE CLUB</a></li>
+                                    <li class=""><a href="/activites/femmes">GROUPE DES FEMMES</a></li>
+                                    <li class=""><a href="/activites/equipe_accueil">EQUIPE D'ACCUEIL</a></li>
+                                    <li class=""><a href="/activites/media">EQUIPE SONO</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_belgique">UN CHANT NOUVEAU
+                                        BELGIQUE</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_dieuze">UN CHANT NOUVEAU DIEUZE</a>
+                                    </li>
+                                </ul>
+                            </li>
 
-    <div class="number-wrapper">
-        <div class="number-count">
-            <div class="number">01</div>
-        </div>
-    </div>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">Sermons<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class=""><a href="enseignements">PREDICATIONS</a></li>
+                                    <li class=""><a href="exhortations">EXHORTATIONS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">Nos cultes<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class=""><a href="/programmes/horaires">HORAIRES</a></li>
+                                    <li class=""><a href="/cultes/main_culte">CULTE PRINCIPAL</a></li>
+                                    <li class=""><a href="/cultes/culte_anglophone">CULTE BILINGUE</a></li>
+                                    <li class=""><a href="/cultes/culte_russophone">CULTE RUSSOPHONE</a></li>
+                                    <li class=""><a href="/programmes/evenements">EVENEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true"
+                                   aria-expanded="false">Médiathèque<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class=""><a href="/mediateque/cantiques">PAROLES DE CHANTS</a></li>
+                                    <li class=""><a href="/photos">Photos</a></li>
+                                    <li class=""><a href="/mediateque/billeterie_concert">CONCERT</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="contact">Contact</a></li>
+                            <li><a href="search"><img id="search_tag" src="/images/glyphicons-28-search.png"
+                                                      alt=""/></a></li>
+                        </ul>
+                    </div>
+                </div>
 
-    <div class="nav-wrapper">
-        <div class="nav-arrows">
-            <div class="nav-up">
-                <svg id="arrow-up">
-                    <use xlink:href="#icon-arrow"></use>
-                </svg>
             </div>
-            <div class="nav-line"></div>
-            <div class="nav-down">
-                <svg id="arrow-down">
-                    <use xlink:href="#icon-arrow"></use>
-                </svg>
-            </div>
         </div>
-    </div>
-
-    <div class="slider-wrapper">
-        <div class="slider-container">
-            <div class="slide active" data-order="1">
-                <div class="slide-content txt">
-                    <div class="txt-wrapper">
-                        <!--<span class="copy">Intro about me</span>-->
-                        <h3><b>Bienvenue à l’Eglise Un Chant Nouveau</b></h3>
-                        <span class="subtitle"><i>Assemblée Chrétienne où la vie bouge!</i></span>
-                        <p class="excerpt" style="font-size: 110%;">
-                            <i>"Tournons le dos aux pensées et aux choses qui nous retiennent aux "choses de la terre".
+    </nav>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(images/img_bg_2.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center">
+                                    <div class="slider-text">
+                                        <div class="slider-text-inner">
+                                            <h1>Bienvenue sur le site officiel de l’Eglise Un Chant Nouveau</h1>
+                                            <h2> Venez faire partie de notre grande famille riche en couleurs et en
+                                                cultures.
+                                                Notre raison de vivre est de louer Dieu et ce qui fait notre joie c’est
+                                                de partager notre Foi en Jésus
+                                                Christ.</h2>
+                                            <p><a class="btn btn-primary btn-demo popup-vimeo"
+                                                  href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funchantnouveaunancy%2Fvideos%2F1650220988332856%2F&show_text=0">
+                                                <i class="icon-play4"></i> Regarde Video</a> <a
+                                                    class="btn btn-primary btn-learn">Rejoinez-nous
+                                                <i class="icon-arrow-right3"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(images/img_bg_1.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center">
+                                    <div class="slider-text">
+                                        <div class="slider-text-inner">
+                                            <h1>La Foi est un style de vie au quotidien ! </h1>
+                                            <h2>En plus de la célébration du dimanche, nous avons divers groupes qui se
+                                                réunissent en semaine dans une
+                                                atmosphère fraternelle et conviviale.
+                                                Jeunes et moins jeunes, hommes et femmes, découvrez ces groupes et
+                                                trouvez votre place !
+                                            </h2>
+                                            <p><a class="btn btn-primary btn-demo popup-vimeo"
+                                                  href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funchantnouveaunancy%2Fvideos%2F1650220988332856%2F&show_text=0">
+                                                <i class="icon-play4"></i> Regarde Video</a> <a
+                                                    class="btn btn-primary btn-learn">Rejoinez-nous
+                                                <i class="icon-arrow-right3"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(/images/pierre_yves.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluids">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center">
+                                    <div class="slider-text">
+                                        <div class="slider-text-inner text-left">
+                                            <h1>Le couple pastoral</h1>
+                                            <h2>
+                                                <i>"vous avez de la valeur aux yeux de Dieu, vous avez de l'importance
+                                                    et Il vous aime." <br>
+                                                    <b>Pasteurs Pierre Yves et Valérie ABRESOL</b></i>
+                                            </h2>
+                                            <p><a class="btn btn-primary btn-demo popup-vimeo"
+                                                  href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funchantnouveaunancy%2Fvideos%2F1650220988332856%2F&show_text=0">
+                                                <i class="icon-play4"></i> Regarde Video</a> <a
+                                                    class="btn btn-primary btn-learn">Rejoinez-nous
+                                                <i class="icon-arrow-right3"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(/images/all_pastors.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluids">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center">
+                                    <div class="slider-text">
+                                        <div class="slider-text-inner text-left">
+                                            <h1>Les pasteurs :</h1>
+                                            <h2>* Pasteur Robert Othsiba MAKELEBO</h2>
+                                            <h2>* Pasteur Vicky APLENI</h2>
+                                            <h2>* Pasteur Valerie ABRESOL</h2>
+                                            <h2>* Pasteurs ALex et Tatiana Galitskaya</h2>
+                                            <h2>* Evangeliste Julien et Marie Manga Ngoy</h2>
+                                            <p><a class="btn btn-primary btn-demo popup-vimeo"
+                                                  href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funchantnouveaunancy%2Fvideos%2F1650220988332856%2F&show_text=0">
+                                                <i class="icon-play4"></i> Regarde Video</a> <a
+                                                    class="btn btn-primary btn-learn">Rejoinez-nous
+                                                <i class="icon-arrow-right3"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(/images/all_pastors_2.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluids">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center">
+                                    <div class="slider-text">
+                                        <div class="slider-text-inner text-left">
+                                            <h1>Les anciens :</h1>
+                                            <h2>* Nicole MARMOLLE</h2>
+                                            <h2>* Diane Nathalie et Tresor BIANTUADI</h2>
+                                            <h2>* Elena Iremachvili Retrema et Dominique RETREMA</h2>
+                                            <h2>*Vanessa et Olivier MAKELEBO</h2>
+                                            <h2>*Diane PICHON</h2>
+                                            <h2></h2>
+                                            <p><a class="btn btn-primary btn-demo popup-vimeo"
+                                                  href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funchantnouveaunancy%2Fvideos%2F1650220988332856%2F&show_text=0">
+                                                <i class="icon-play4"></i> Regarde Video</a> <a
+                                                    class="btn btn-primary btn-learn">Rejoinez-nous
+                                                <i class="icon-arrow-right3"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div id="fh5co-intro">
+            <div class="row animate-box">
+                <div class="col-md-12 col-md-offset-0 text-center">
+                    <h2><b>Bienvenue à l’Eglise Un Chant Nouveau</b></h2>
+                    <h3><i>Assemblée Chrétienne où la vie bouge!</i>!</h3>
+                    <span><i>"Tournons le dos aux pensées et aux choses qui nous retiennent aux "choses de la terre".
                                 Arrêtons de nous appesantir sur le temporaire pour nous vocaliser davantage sur ce qui
                                 est
                                 éternel.
@@ -67,233 +278,290 @@
                                 perspective et regardons aux choses d'en haut, la ou Christ siège à la droite de Dieu
                                 !"</i>
                             <br>
-                            <b>Colossiens 3:1</b>
-                        </p>
-                        <p class="excerpt">
-                            <b>Pasteur Pierre-Yves ABRESOL</b>
-                        </p>
-                    </div>
-                </div>
-                <div class="slide-content img">
-                    <img src="/images/pasteurs.jpg" alt=""/>
-                </div>
-            </div>
-            <div class="slide" data-order="2">
-                <div class="slide-content txt">
-                    <div class="txt-wrapper">
-                        <!--<span class="copy">Show with me</span>-->
-                        <h3><span>Les pasteurs :</span></h3>
-                        <ul class="excerpt">
-                            <li>Pasteur Robert Othsiba MAKELEBO</li>
-                            <li>Pasteur Vicky APLENI</li>
-                            <li>Pasteur Valerie ABRESOL</li>
-                            <li>Pasteurs ALex et Tatiana Galitskaya</li>
-                            <li>Evangeliste Julien et Marie Manga Ngoy</li>
-                        </ul>
-                        <h3><span>Les anciens :</span></h3>
-                        <ul class="excerpt">
-                            <li> Nicole MARMOLLE</li>
-                            <li> Diane Nathalie et Tresor BIANTUADI</li>
-                            <li> Elena Iremachvili Retrema et Dominique RETREMA</li>
-                            <li>Vanessa et Olivier MAKELEBO</li>
-                            <li>Diane PICHON</li>
-                            <li></li>
-                        </ul>
-                        <a href="enseignements"><button>ENSEIGNEMENTS</button></a>
-                    </div>
-                </div>
-                <div class="slide-content img">
-                    <img src="/images/all_pastors.jpg" alt=""/>
-                </div>
-            </div>
-            <div class="slide " data-order="3">
-                <div class="slide-content txt">
-                    <div class="txt-wrapper">
-                        <span class="copy">Evénements à venir </span>
-                        <ul>
-                            <li>
-                                <div class="date-wrapper">
-                                    <div class="date">02</div>
-                                    <div class="month">Feb</div>
-                                </div>
-                                <div class="post-wrapper">
-                                    <div class="post-title"><a href="https://www.facebook.com/events/855275571175585/">Louange
-                                        KIDS</a></div>
-                                    <div class="post-info">
-                                        <ul>
-                                            <li>Sat 2:00 PM UTC+01/</li>
-                                            <li>Un Chant Nouveau Nancy</li>
-                                            <li>200 guests</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="date-wrapper">
-                                    <div class="date">10</div>
-                                    <div class="month">Nov</div>
-                                </div>
-                                <div class="post-wrapper">
-                                    <div class="post-title"><a href="https://www.facebook.com/events/1757689341150324/">Concert
-                                        Gospel - Chorale Un Chant Nouveau </a></div>
-                                    <div class="post-info">
-                                        <ul>
-                                            <li>Thu 7:30 PM UTC+01/</li>
-                                            <li>Salle Poirel Nancy</li>
-                                            <li>300 guests</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="date-wrapper">
-                                    <div class="date">31</div>
-                                    <div class="month">Dec</div>
-                                </div>
-                                <div class="post-wrapper">
-                                    <div class="post-title"><a href="https://www.facebook.com/events/1786165538299840/">
-                                        Nouvel An 2017 </a></div>
-                                    <div class="post-info">
-                                        <ul>
-                                            <li>Dec 31, 2017 - Jan 1, 2017/</li>
-                                            <li>Un Chant Nouveau Nancy</li>
-                                            <li>100 guests</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <span class="view-all"><a href="/programmes/evenements">Tous les événéments</a></span>
-
-                    </div>
-                </div>
-                <div class="slide-content img">
-                    <img src="/images/louange_team_2.jpg" alt=""/>
-                </div>
-            </div>
-            <div class="slide " data-order="4">
-                <div class="slide-content txt">
-                    <div class="txt-wrapper">
-                        <span class="copy">Un Chant Nouveau Nancy</span>
-                        <h3><b>Worship Sessions</b></h3>
-                        <p class="excerpt" style="font-size: 110%;"><b>2 Samuel 22:50</b> - "C'est pourquoi je te louerai parmi les nations, ô Éternel!
-                            Et je chanterai à la gloire de ton nom /<br>
-                            Therefore I will praise you, LORD, among the nations; I will sing the praises of your
-                            name.<br>
-                            Lord, I give You my heart, I give You my soul, I live for you alone, and every breath that I
-                            take, every moment I'm awake. Lord, have Your ways in me.<br>
-                            Mon plus cher désir, c'est t'honorer. Oui de tout mon cœur, je t'adore. Tout ce qui est en
-                            moi te glorifie. Tout ce que j'adore est en toi
-                        </p>
-                       <a href="https://youtu.be/jmEphJaT1c4"> <button>Vidéo clip</button></a>
-                    </div>
-
-                </div>
-
-                <div class="slide-content img">
-                    <img src="/images/louange_team.jpg" alt=""/>
-                </div>
-            </div>
-            <div class="slide " data-order="5">
-                <div class="slide-content txt">
-                    <div class="txt-wrapper">
-                        <span class="copy">Nous Contactez</span>
-                        <h3>Nancy, <span>France</span></h3>
-                        <p class="excerpt" style="font-size: 110%;">72 Bis, Rue Charles Keller, 54000 Nancy, France</p>
-                        <p style="font-size: 110%;"><strong>Courriel:</strong> <a href="mailto:simalto1510@gmail.com">frbondo@gmail.com</a></p>
-                        <p style="font-size: 110%;">Numéro Téléphone: <span class="phone">+33 (0) 3 54 59 47 09</span></p>
-                    </div>
-                </div>
-                <div class="slide-content img">
-                    <img src="/images/eglise_culte.jpg" alt=""/>
+                            <b>Colossiens 3:1</b></span>
+                    <p class="excerpt">
+                        <b>publié par le Pasteur Pierre-Yves ABRESOL</b>
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <div class="social-wrapper">
-            <ul>
-                <li class="active"><a href="activites">ACTIVITES</a></li>
-                <li class="active"><a href="/programmes/horaires">HORAIRES</a></li>
-                <li class="active"><a href="/cultes/main_culte">CULTE PRINCIPAL</a></li>
-            </ul>
+        <hr>
+        <div id="fh5co-counter" class="fh5co-counters">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <h3>
+                        Ressourcez-vous !
+                    </h3>
+
+                    <p class="excerpt">
+                        <i>"Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de
+                            l’intelligence,
+                            afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et
+                            parfait."</i>
+                        <br>
+                        <b>Romains 12:2</b>
+                    </p>
+                    <p class="excerpt">
+                        Retrouvez nos enseignements vidéos et audios et soyez renouvelés dans votre intelligence sur
+                        notre <b>chaine Youtube UCN TV</b> <a
+                            href="https://www.youtube.com/channel/UCoF7SzgKMqLuzyHJ2YUespg">
+                        <img id="head_youtube" src="/images/logo_youtube.jpg" alt=""/>
+                    </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="language-wrapper">
-            <ul>
-                <li><a href="accueil">FR</a></li>
-            </ul>
+        <div id="fh5co-services" class="fh5co-light-grey">
+            <div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <h2>Services</h2>
+                    <p class="lead">Nous avons pincipalements 3 services:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/cultes/main_culte" class="img-holder"><img class="img-responsive"
+                                                                             src="/images/img-1.jpg"
+                                                                             alt="Free HTML5 Website Template by freehtml5.co"></a>
+                        <div class="desc">
+                            <h3><a href="/cultes/main_culte">Culte principal</a></h3>
+                            <p>
+                                <i>"vous avez de la valeur aux yeux de Dieu, vous avez de l'importance et Il vous aime."
+                                    <br>
+                                    <b>Pasteurs Pierre Yves et Valérie ABRESOL</b></i>
+                            </p>
+                            <a href="/cultes/main_culte">Details<i class="icon-arrow-right3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/cultes/culte_anglophone" class="img-holder"><img class="img-responsive"
+                                                                                   src="/images/img-3.jpg"
+                                                                                   alt="Free HTML5 Website Template by freehtml5.co"></a>
+                        <div class="desc">
+                            <h3><a href="/cultes/culte_anglophone">Culte Bilingue</a></h3>
+                            <p>
+                                <i>"The LORD is my shepherd; I shall not want..."</i>
+                                <br><b>Psalm 23</b>
+                            </p>
+                            <a href="/cultes/culte_anglophone">Details<i class="icon-arrow-right3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="cultes/culte_russophone" class="img-holder"><img class="img-responsive"
+                                                                                  src="/images/img-2.jpg"
+                                                                                  alt="Free HTML5 Website Template by freehtml5.co"></a>
+                        <div class="desc">
+                            <h3><a href="cultes/culte_russophone">Culte Russo-arménien</a></h3>
+                            <p> Присоединяйтесь к нам, чтобы хвалить Господа Иисуса</p>
+                            <a href="cultes/culte_russophone">Details <i class="icon-arrow-right3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div id="fh5co-sermon">
+            <div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <h2>Quelques Enseignements</h2>
+                    <p><i>"Le juste vivra par sa foi"</i><br><b>Habaquq 2:4</b></p>
+                    <p><i>"Ainsi la foi vient de ce qu'on entend, et ce qu'on entend vient de la parole de Christ.
+                        "</i><br><b>Romains 10 : 17 </b></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(/images/sermon-1.jpg);">
+                            <iframe width="400" height="330" src="https://www.youtube.com/embed/cU6tZOqrvOw"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <h3>Bénissez</h3>
+                        <span>Pasteur Valerie ABRESOL</span>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center animate-box">
+                </div>
+                <div class="col-md-5 text-center">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-3.jpg);">
+                            <iframe width="400" height="330" src="https://www.youtube.com/embed/aLrYUhOUzwI"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <h3>Marcher dans la volonté de Dieu</h3>
+                        <span>Marie NGOY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fh5co-bible-verse">
+            <div class="overlay"></div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row animate-box">
+                        <div class="owl-carousel owl-carousel-fullwidth">
+                            <div class="item">
+                                <div class="bible-verse-slide active text-center">
+                                    <blockquote>
+                                        <p>&ldquo;Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que
+                                            quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle.
+                                            .&rdquo;</p>
+                                        <span>Jean 3:16</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bible-verse-slide active text-center">
+                                    <blockquote>
+                                        <p>&ldquo;The LORD [is] my strength and my shield; my heart trusted in him, and
+                                            I am helped: therefore my heart greatly rejoiceth; and with my song will I
+                                            praise him.&rdquo;</p>
+                                        <span>Psalms 28:7</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bible-verse-slide active text-center">
+                                    <blockquote>
+                                        <p>&ldquo;И мы познали любовь, которую имеет к нам Бог, и уверовали в нее. Бог
+                                            есть любовь, и пребывающий в любви пребывает в Боге, и Бог в нем.&rdquo;</p>
+                                        <span>1-e Иоанна 4:16</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fh5co-events">
+            <div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <h2>Les prochains évenements:</h2>
+                    <h4>Atmosphère de miracles avec l'evangeliste <b>John David KIRBY</b></h4>
+                    <p><b>4 temps exceptionnels</b></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 animate-box">
+                    <div class="events-entry">
+                        <span class="date">15 Novembre, 2017</span>
+                        <h3><a href="programmes/evenements">A l'église Un Chant Nouveau à <b>19h30</b></a></h3>
+                        <a href="programmes/evenements">Details <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="events-entry">
+                        <span class="date">17 Novembre, 2017</span>
+                        <h3><a href="programmes/evenements">A l'église Un Chant Nouveau à <b>19h30</b></a></h3>
+                        <a href="programmes/evenements">Details <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="events-entry">
+                        <span class="date">18 Novembre, 2017</span>
+                        <h3><a href="programmes/evenements">A l'église Un Chant Nouveau à <b>17h30</b></a></h3>
+                        <a href="programmes/evenements">Details <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="events-entry">
+                        <span class="date">Dimanche, 19 Novembre, 2017</span>
+                        <h3><a href="programmes/evenements">A l'église Un Chant Nouveau à <b>10h</b></a></h3>
+                        <a href="programmes/evenements">Details <i class="icon-arrow-right3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- END container-wrap -->
+
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div class="col-md-4 text-center">
+                <h2>Eglise Un Chant Nouveau</h2>
+                <h3>72 Bis Rue Charles Keller, 54000 Nancy, FRANCE</h3>
+            </div>
+            <div class="col-md-4 text-center">
+                <h2><a href="accueil">UN CHANT NOUVEAU</a></h2>
+            </div>
+            <div class="col-md-4 text-center">
+                <ul class="fh5co-social-icons">
+                    <li><a href="https://www.youtube.com/channel/UCoF7SzgKMqLuzyHJ2YUespg"><i class="icon-youtube2"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/unchantnouveaunancy/"><i class="icon-facebook2"></i></a></li>
+                </ul>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-12 text-center">
+                    <p>
+                        <small class="block">&copy; Copyright 2017 - Un Chant Nouveau - Tous droits réservés.</small>
+                        <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">Francis BONDO
+                            based on FreeHTML5.co</a>
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
 
-<br><br>
-<!--**************************************************************************-->
-<div id="body_container">
-    <div class="row" id="text_center_accueil">
-
-        <div class="col-sm-4">
-
-            <a href="/images/logo_ucn_big.jpg" data-lightbox="roadtrip"><img id="head_church" src="/images/logo_ucn.jpg"
-                                                                             alt=""/></a>
-            <h3>Bienvenue sur le site officiel de l’Eglise Un Chant Nouveau.</h3>
-            <p class="excerpt">
-                Venez faire partie de notre grande famille riche en couleurs et en cultures.
-                Notre raison de vivre est de louer Dieu et ce qui fait notre joie c’est de partager notre Foi en Jésus
-                Christ.
-            </p>
-
-        </div>
-
-        <div class="col-sm-4">
-            <a href="/images/logo_media.png" data-lightbox="roadtrip"><img id="media" src="/images/media_2.jpg" alt=""/></a>
-            <h3>
-                Ressourcez-vous !
-            </h3>
-
-            <p class="excerpt">
-                Retrouvez nos enseignements vidéos et audios et soyez renouvelés dans votre intelligence.
-            </p>
-
-            <p class="excerpt">
-                <i>"Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de
-                    l’intelligence,
-                    afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait."</i>
-                <br>
-                <b>Romains 12:2</b>
-            </p>
-
-        </div>
-
-        <div class="col-sm-4">
-            <iframe id="iframe_video" src="https://www.youtube.com/embed/adnSSdfwzKA" frameborder="0"
-                    allowfullscreen></iframe>
-            <h3>
-                La Foi est un style de vie au quotidien !
-            </h3>
-            <p class="excerpt">
-                En plus de la célébration du dimanche, nous avons divers groupes qui se réunissent en semaine dans une
-                atmosphère fraternelle et conviviale.
-                Jeunes et moins jeunes, hommes et femmes, découvrez ces groupes et trouvez votre place !
-            </p>
-
-        </div>
-    </div>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 </div>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
-<script src="/javascripts/lightbox/lightbox.js"></script>
-<script>
-    lightbox.option({
-        'alwaysShowNavOnTouchDevices': true
-    });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
-<script src="/javascripts/w3.js"></script>
-<script> w3.includeHTML();</script>
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 </body>
 </html>
+

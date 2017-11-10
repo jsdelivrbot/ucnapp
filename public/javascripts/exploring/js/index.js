@@ -127,7 +127,7 @@ up.on('click', function () {
 
 });
 
-var idTimer = 4000,
+var idTimer = 10000,
   esta = 0;
 
 //Script pour automatiser les slides
