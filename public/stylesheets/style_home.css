@@ -494,9 +494,29 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-light-grey {
-  background: #fafafa;
+  background: #658361;
 }
-
+.fh5co-light-grey_bis {
+  background: #658361;
+}
+.fh5co-light-grey_0 h3{
+    color: black;
+}
+.fh5co-light-grey_bis p{
+  color: white;
+}
+.fh5co-light-grey_bis a{
+  color: lightskyblue;
+}
+#link_button_details {
+  color: white;
+}
+#fh5co-services h2,#fh5co-services h3{
+  color: whitesmoke;
+}
+#fh5co-services p,h3{
+  color:white;
+}
 #fh5co-about,
 #fh5co-services,
 #fh5co-contact,
@@ -691,7 +711,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-style: italic;
 }
 
-#fh5co-bible-verse {
+
+#fh5co-bible-verse,#fh5co-counter,#fh5co-counter {
   background: #658361;
   position: relative;
 }
@@ -735,6 +756,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background: white !important;
 }
 
+#fh5co-counter p,#fh5co-counter h3{
+  color: white;
+}
+
 .fh5co-counters {
   padding: 3em 0;
   background-size: cover;
@@ -747,7 +772,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-counters .fh5co-counter {
   font-size: 40px;
   display: block;
-  color: black;
+  color: white;
   width: 100%;
   font-weight: 400;
   margin-bottom: .3em;
@@ -761,7 +786,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  color: gray;
+  color: white;
 }
 
 .contact-info {

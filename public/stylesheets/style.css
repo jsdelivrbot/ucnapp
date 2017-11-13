@@ -76,6 +76,12 @@ body {
     height: 250px;
 }
 
+#fh5co-services_1 div >div>div> a > img,#fh5co-services_2 div >div>div> a > img,#fh5co-services_3 div >div>div> a > img,
+#fh5co-services_4 div >div>div> a > img{
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
 #border_image_1 div > a > img {
     border-radius: 50%;
     width: 400px;
@@ -232,7 +238,7 @@ footer {
     }
 
     #head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
-    #groupe_intercession_head, #intercession_1, #intercession_2, #groupe_louange_head, #louange_1, #louange_2,
+    #groupe_intercession_head, #intercession_1, #intercession_2, #groupe_louange_head, #louange_1, #louange_2,#club,
     #club_1, #club_2, #club_3, #groupe_femmes_head, #femmes_2, #femmes_1, #equipe_accueil, #equipe_accueil_1,
     #equipe_accueil_2, #equipe_media, #equipe_media_1, #chant_nouveau_belgique, #belgique_1, #belgique_2,
     #chant_nouveau_dieuze, #dieuze_1, #dieuze_2, #church_1, #tata_vicky, #church_3, #church_5, #russophone,
@@ -240,6 +246,15 @@ footer {
     #veille, #nuit,#international{
         width: 190px;
         height: 190px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #link_details, #link_details_1, #link_details_2, #link_details_3, #link_details_4, #link_details_5,
+    #link_details_6, #link_details_7, #link_details_8, #link_details_9,#link_details_10{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #plan_acces_map, #contact_us, #bus_tram {

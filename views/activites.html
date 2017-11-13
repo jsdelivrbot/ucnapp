@@ -1,156 +1,385 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Activités</title>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
-<div id="body_container">
-    <div id="border_image">
-        <div class="row">
-            <div class="col-xs-3 col-md-3">
-                <h4><b>Groupe de Jeunes</b></h4>
-                <a href="/images/jeunesse_head.jpg" data-lightbox="roadtrip"><img id="groupe_jeune_head" src="/images/jeunesse_head_1.jpg" alt=""/></a> <br>
-                <p> <i>"Chercher ensemble et individuellement à connaître toujours plus le Seigneur"</i> et <i>"transmettre la
-                    bonne nouvelle du Seigneur autour de nous ".</i> Si tu es jeune et que tu as le désir de te rapprocher de
-                    Dieu, des questions sur Dieu et sa parole. Ou que tu as le désir de découvrir comment partager le message de l’évangile aux
-                    autres. Nous t’encourageons à nous rejoindre. Comme dit la parole <i>"Viens et vois"</i><br>
-                    <b>Jean 1:46</b>
-                </p>
-                <p><a href="/activites/jeunesse">Details </a></p>
+
+<div class="fh5co-loader"></div>
+
+<div id="page">
+    <div w3-include-html="/html/menu.html"></div>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(/images/views_church_all.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center slider-text">
+                                    <div class="slider-text-inner">
+                                        <h1>Nos activités?</h1>
+                                        <h2>L'église UN CHANT NOUVEAU où la <br>vie bouge
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b> Groupe d'intercession</b></h4>
-                <a href="/images/groupe_intercession_head_all.jpg" data-lightbox="roadtrip"><img id="groupe_intercession_head" src="/images/groupe_intercession_head.jpg" alt=""/></a><br>
-                <p><i>"Je cherche parmi eux un homme qui élève un mur, qui se tienne à la brèche devant moi en faveur du
-                    pays, afin que je ne le détruise pas; mais je n’en trouve point."</i><br>
-                    <b>Ézéchiel 22:30 </b>
-                </p>
-                <p><a href="/activites/intercession">Details </a></p>
-            </div>
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b>Groupe Anglophone</b></h4>
-                <a href="/images/groupe_anglophonne_head_all.jpg" data-lightbox="roadtrip"><img id="groupe_anglophonne_head" src="/images/groupe_anglophonne_head.jpg" alt=""/></a><br>
-                <p>
-                    <i>"Et que toute langue confesse que Jésus-Christ est Seigneur, à la Gloire de Dieu le Père."</i><br>
-                    <b>Philippiens 2:11</b><br>
-
-                    Culte de célébration en anglais un dimanche sur deux à 14h40 !
-                </p>
-                <p><a href="/cultes/culte_anglophone">Details </a></p>
-            </div>
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b> Groupe Russophone</b></h4>
-                <a href="/images/groupe_russophone_head_all.jpg" data-lightbox="roadtrip"> <img id="groupe_russophone_head" src="/images/groupe_russophone_head.jpg" alt=""/></a><br>
-                <p>
-                    <i>"Un véritable réveil pour le peuple de l’Est grâce au Saint Esprit qui agit à travers ce couple !
-                    Allez, faites de
-                    toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit."</i><br>
-                    <b>Matthieu 28:19</b>
-                </p>
-                <p><a href="/cultes/culte_russophone">Details </a></p>
+        </aside>
+        <div id="fh5co-services_0" class="fh5co-light-grey_0">
+            <div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <br>
+                    <h2>Activités</h2>
+                    <p class="lead">Les principaux activités de notre assemblée</p>
+                </div>
             </div>
         </div>
+        <div id="fh5co-services_1" class="fh5co-light-grey_bis">
+            <br>
+            <div class="row">
+                <div class="col-md-1 animate-box"></div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/jeunesse_head.jpg" data-lightbox="/images/jeunesse_head.jpg"><img id="groupe_jeune_head"
+                                                                                          src="/images/jeunesse_head_1.jpg"
+                                                                                          alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="activites/jeunesse">Groupe de Jeunes</a></h3>
+                            <p><i>"Chercher ensemble et individuellement à connaître toujours plus le Seigneur"</i> et
+                                <i>"transmettre la
+                                    bonne nouvelle du Seigneur autour de nous ".</i> Si tu es jeune et que tu as le
+                                désir de te rapprocher de
+                                Dieu, des questions sur Dieu et sa parole. Ou que tu as le désir de découvrir comment
+                                partager le message de l’évangile aux
+                                autres. Nous t’encourageons à nous rejoindre. Comme dit la parole <i>"Viens et vois"</i><br>
+                                <b>Jean 1:46</b>
+                            </p>
+                            <p id="link_details"><a href="activites/jeunesse"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="row">
-            <div class="col-xs-3 col-md-3">
-                <h4><b> Groupe de Louange</b></h4>
-                <a href="/images/tata_all.jpg" data-lightbox="roadtrip"><img id="groupe_louange_head" src="/images/tata_vicky.jpg" alt=""/></a><br>
-                <p><i>"Entretenez-vous par des psaumes, par des hymnes, et par des cantiques spirituels, chantant et
-                    célébrant de tout votre coeur les louanges du Seigneur."</i><br>
-                    <b>Éphésiens 5:19</b><br>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_intercession_head_all.jpg" data-lightbox="/images/groupe_intercession_head_all.jpg"><img
+                                id="groupe_intercession_head" src="/images/groupe_intercession_head.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/intercession"> Groupe d'intercession</a></h3>
+                            <p><i>"Je cherche parmi eux un homme qui élève un mur, qui se tienne à la brèche devant moi
+                                en faveur du
+                                pays, afin que je ne le détruise pas; mais je n’en trouve point."</i><br>
+                                <b>Ézéchiel 22:30 </b>
+                            </p>
+                            <p id="link_details_10"><a href="/activites/intercession"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_anglophonne_head_all.jpg" data-lightbox="/images/groupe_anglophonne_head_all.jpg"><img
+                                id="groupe_anglophonne_head" src="/images/groupe_anglophonne_head.jpg" alt=""/></a>>
+                        <div class="desc">
+                            <h3><a href="/cultes/culte_anglophone">Groupe Anglophone</a></h3>
+                            <p>
+                                <i>"Et que toute langue confesse que Jésus-Christ est Seigneur, à la Gloire de Dieu le
+                                    Père."</i><br>
+                                <b>Philippiens 2:11</b><br>
 
-                    Venez et célébrez Dieu avec nous chaque dimanche à 10h !</p>
-                <p><a href="/activites/louange">Details </a></p>
+                                Culte de célébration en anglais un dimanche sur deux à 14h40 !
+                            </p>
+                            <p id="link_details_1"> <a href="/cultes/culte_anglophone"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b>Le Club</b></h4>
-                <a href="/images/club_all.jpg" data-lightbox="roadtrip"><img id="club" src="/images/club.jpg" alt=""/></a><br>
-                <p><i>"Et Jésus dit: Laissez les petits enfants, et ne les empêchez pas de venir à moi; car le royaume des
-                    cieux est pour ceux qui leur ressemblent."</i><br>
-                    <b>Matthieu 19:14</b><br>
-
-                    C’est avec beaucoup de joie que les enfants se retrouvent chaque dimanche avec des moniteurs de
-                    qualité !
-                </p>
-                <p><a href="/activites/club">Details </a></p>
-            </div>
-
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b> Groupe des Femmes</b></h4>
-                <a href="/images/groupe_femmes_meeting_2.jpg" data-lightbox="roadtrip"><img id="groupe_femmes_head" src="/images/groupe_femmes_meeting_2_mini.jpg" alt=""/></a> <br>
-                <p><i>"La Femme vertueuse est revêtue de force et de gloire, Et elle se rit de l’avenir. Elle ouvre la
-                    bouche avec sagesse, Et des instructions aimables sont sur sa langue.
-                    Elle veille sur ce qui se passe dans sa maison, Et elle ne mange pas le pain de paresse."</i><br>
-                    <b>Proverbe 31 </b>
-                </p>
-                <p><a href="/activites/femmes">Details </a></p>
-            </div>
-
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b> Equipe d'Accueil</b></h4>
-                <a href="/images/equipe_accueil_all.jpg" data-lightbox="roadtrip"><img id="equipe_accueil" src="/images/equipe_accueil.jpg" alt=""/></a><br>
-                <p> C’est avec le plus beau sourire que notre équipe vous accueille chaque dimanche matin avec un bon
-                    thé ou café et des petites gourmandises !
-                    Un temps de communion fraternelle très agréable et toujours à la hauteur !</p>
-                <p><a href="/activites/equipe_accueil">Details </a></p>
-            </div>
-
+            <div class="col-md-1 animate-box"></div>
+            <br>
         </div>
+        <div id="fh5co-services_2" class="fh5co-light-grey_1">
+            <br>
+            <div class="row">
+                <div class="col-md-1 animate-box"></div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_russophone_head_all.jpg" data-lightbox="/images/groupe_russophone_head_all.jpg"> <img
+                                id="groupe_russophone_head" src="/images/groupe_russophone_head.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/cultes/culte_russophone">Groupe Russophone</a></h3>
+                            <p><i>"Chercher ensemble et individuellement à connaître toujours plus le Seigneur"</i> et
+                                <i>"transmettre la
+                                    bonne nouvelle du Seigneur autour de nous ".</i> Si tu es jeune et que tu as le
+                                désir de te rapprocher de
+                                Dieu, des questions sur Dieu et sa parole. Ou que tu as le désir de découvrir comment
+                                partager le message de l’évangile aux
+                                autres. Nous t’encourageons à nous rejoindre. Comme dit la parole <i>"Viens et vois"</i><br>
+                                <b>Jean 1:46</b>
+                            </p>
+                            <p id="link_details_2"><a href="/cultes/culte_russophone"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
 
-        <div class="row">
-            <div class="col-xs-3 col-md-3">
-                <h4><b>Equipe Médias</b></h4>
-                <a href="/images/equipe_media_all.jpg" data-lightbox="roadtrip"> <img id="equipe_media" src="/images/equipe_media.jpg" alt=""/></a><br>
-                <p><i>"Tout ce que vous faites, faites-le de bon coeur, comme pour le Seigneur et non pour des hommes,
-                    sachant que vous recevrez du Seigneur l’héritage pour récompense. Servez Christ, le Seigneur.…"</i><br>
-                    <b>Colossiens 3:23-24.</b><br>
+                        <a href="/images/tata_all.jpg" data-lightbox="/images/tata_all.jpg"><img id="groupe_louange_head"
+                                                                                     src="/images/tata_vicky.jpg"
+                                                                                     alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/louange"> Groupe de Louange</a></h3>
+                            <p><i>"Entretenez-vous par des psaumes, par des hymnes, et par des cantiques spirituels,
+                                chantant et
+                                célébrant de tout votre coeur les louanges du Seigneur."</i><br>
+                                <b>Éphésiens 5:19</b><br>
 
-                    Une équipe de choc à votre service !
-                </p>
-                <p><a href="/activites/media">Details </a></p>
-            </div>
+                                Venez et célébrez Dieu avec nous chaque dimanche à 10h !</p>
+                            <p id="link_details_3"><a href="/activites/louange"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/club_all.jpg" data-lightbox="/images/club_all.jpg"><img id="club" src="/images/club.jpg"
+                                                                                     alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/club">Le Club</a></h3>
+                            <p><i>"Et Jésus dit: Laissez les petits enfants, et ne les empêchez pas de venir à moi; car
+                                le royaume des
+                                cieux est pour ceux qui leur ressemblent."</i><br>
+                                <b>Matthieu 19:14</b><br>
 
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b>Un Chant Nouveau Belgique</b></h4>
-                <a href="/images/chant_nouveau_belgique_all.jpg" data-lightbox="roadtrip"><img id="chant_nouveau_belgique" src="/images/chant_nouveau_belgique.jpg" alt=""/></a><br>
-                <p>Une extension de notre Eglise en Belgique ! Une équipe soudée et motivée pour Jésus Christ. <br>
-                    <i>"Allez,
-                    faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit."</i><br>
-                    <b>Matthieu 28:19</b>
-                </p>
-                <p><a href="/activites/chant_nouveau_belgique">Details </a></p>
-            </div>
-
-            <div class="col-xs-3 col-md-3">
-                <h4><b> Un Chant Nouveau Dieuze </b></h4>
-                <a href="/images/logo_ucn_big.jpg" data-lightbox="roadtrip"><img id="chant_nouveau_dieuze" src="/images/chant_nouveau_dieuze.jpg" alt=""/></a> <br>
-                <p>Une extension de notre Eglise dans le village de Lindre Basses ! Nous nous multiplions !</p>
-                <p><a href="/activites/chant_nouveau_dieuze">Details </a></p>
+                                C’est avec beaucoup de joie que les enfants se retrouvent chaque dimanche avec des
+                                moniteurs de
+                                qualité !
+                            </p>
+                            <p id="link_details_4"><a href="/activites/club"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 animate-box"></div>
+                <br>
             </div>
         </div>
+        <br>
+        <div id="fh5co-services_3" class="fh5co-light-grey_bis">
+            <br>
+            <div class="row">
+                <div class="col-md-1 animate-box"></div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_femmes_meeting_2.jpg" data-lightbox="/images/groupe_femmes_meeting_2.jpg"><img
+                                id="groupe_femmes_head" src="/images/groupe_femmes_meeting_2_mini.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/femmes"> Groupe des Femmes</a></h3>
+                            <p><i>"La Femme vertueuse est revêtue de force et de gloire, Et elle se rit de l’avenir.
+                                Elle ouvre la
+                                bouche avec sagesse, Et des instructions aimables sont sur sa langue.
+                                Elle veille sur ce qui se passe dans sa maison, Et elle ne mange pas le pain de
+                                paresse."</i><br>
+                                <b>Proverbe 31 </b>
+                            </p>
+                            <p id="link_details_5"><a href="/activites/femmes"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/equipe_accueil_all.jpg" data-lightbox="/images/equipe_accueil_all.jpg"><img id="equipe_accueil"
+                                                                                               src="/images/equipe_accueil.jpg"
+                                                                                               alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/equipe_accueil">Equipe d'Accueil</a></h3>
+                            <p> C’est avec le plus beau sourire que notre équipe vous accueille chaque dimanche matin
+                                avec un bon
+                                thé ou café et des petites gourmandises !
+                                Un temps de communion fraternelle très agréable et toujours à la hauteur !</p>
+                            <p id="link_details_6"><a href="/activites/equipe_accueil"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/equipe_media_all.jpg" data-lightbox="roadtrip"> <img id="equipe_media"
+                                                                                              src="/images/equipe_media.jpg"
+                                                                                              alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/media">Equipe Médias</a></h3>
+                            <p><i>"Tout ce que vous faites, faites-le de bon coeur, comme pour le Seigneur et non pour
+                                des hommes,
+                                sachant que vous recevrez du Seigneur l’héritage pour récompense. Servez Christ, le
+                                Seigneur.…"</i><br>
+                                <b>Colossiens 3:23-24.</b><br>
 
-    </div>
+                                Une équipe de choc à votre service !
+                            </p>
+                            <p id="link_details_7"><a href="/activites/media"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 animate-box"></div>
+            </div>
+        </div>
+        <br>
+        <div id="fh5co-services_4" class="fh5co-light-grey_2">
+            <div class="row">
+                <div class="col-md-1 animate-box"></div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/chant_nouveau_belgique_all.jpg" data-lightbox="/images/chant_nouveau_belgique_all.jpg"><img
+                                id="chant_nouveau_belgique" src="/images/chant_nouveau_belgique.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/chant_nouveau_belgique"> Un Chant Nouveau Belgique</a></h3>
+                            <p>Une extension de notre Eglise en Belgique ! Une équipe soudée et motivée pour Jésus
+                                Christ. <br>
+                                <i>"Allez,
+                                    faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et
+                                    du Saint-Esprit."</i><br>
+                                <b>Matthieu 28:19</b>
+                            </p>
+                            <p id="link_details_8"><a href="/activites/chant_nouveau_belgique"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/logo_ucn_big.jpg" data-lightbox="/images/logo_ucn_big.jpg"><img id="chant_nouveau_dieuze"
+                                                                                         src="/images/chant_nouveau_dieuze.jpg"
+                                                                                         alt=""/></a>
+                        <div class="desc">
+                            <h3><a href="/activites/chant_nouveau_dieuze"> Un Chant Nouveau Dieuze</a></h3>
+                            <p>Une extension de notre Eglise dans le village de Lindre Basses ! Nous nous multiplions
+                                !</p>
+                            <p id="link_details_9"><a href="/activites/chant_nouveau_dieuze"><i class="icon-arrow-right3">Details</i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                </div>
+                <div class="col-md-1 animate-box"></div>
+                <br>
+            </div>
+        </div>
+        <br>
+        <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey_bis">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <p>Venez faire partie de notre grande famille riche en couleurs et en cultures. Notre raison de
+                        vivre est de louer Dieu et ce qui fait notre joie c’est de partager notre Foi en Jésus
+                        Christ.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- END container-wrap -->
+
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div w3-include-html="/html/footer.html"></div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 <script src="/javascripts/lightbox/lightbox.js"></script>
 <script>
     lightbox.option({
@@ -158,10 +387,9 @@
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
 <script src="/javascripts/w3.js"></script>
 <script> w3.includeHTML();</script>
 
 </body>
 </html>
+

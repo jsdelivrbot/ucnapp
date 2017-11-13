@@ -1,128 +1,271 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Presentation</title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
     <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
 
-<div id="body_container">
-    <div class="row" id="text_center">
+<div class="fh5co-loader"></div>
 
-        <div class="col-sm-5">
+<div id="page">
+    <div w3-include-html="/html/menu.html"></div>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(/images/views_church_all.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center slider-text">
+                                    <div class="slider-text-inner">
+                                        <h1>Qui sommes nous?</h1>
+                                        <h2><b>Bienvenue </b> à l'église UN CHANT NOUVEAU où la <br>vie bouge
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div id="fh5co-about">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>La parole du jour</h3>
+                    <blockquote class="dailyVerse">
+                        <p>&ldquo;L'Eternel est ma force et mon bouclier; En lui mon coeur se confie, et je suis
+                            secouru; J'ai de l'allégresse dans le coeur, Et je le loue par mes chants&rdquo;</p>
+                        <span>Psaumes 28:7</span>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color:skyblue"><b>Bienvenue </b> à l'église UN CHANT NOUVEAU où la vie bouge</h3>
+                    <p>
+                        L'Eglise UN CHANT NOUVEAU est une église membre de la Fédération Protestante de France.<br>
+                        Chaque dimanche nous nous réunissons pour célébrer Dieu, étudier la bible et vivre un temps de
+                        partage en toute amitié
+                    </p>
+                    <p>
+                        Choissisez le meilleur pour votre vie, et venez découvrir Dieu qui est proche de vous, et
+                        attentif à vos soucis du quotidien.<br>
+                        Il n'y a personne qui puis transformer votre vie comme Jésus-Christ peut le faire. Il a un plan
+                        de bonheur pour votre Vie <br>
+                        Des millions de personnes à travers le monde ont choisi de se confier en lui. Il redonne espoir,
+                        force de vivre et il est toujours capable d'agir quand nous nous confions à lui.
+                    </p>
+                    <p>
+                        Choissisez le meilleur pour votre vie, et venez découvrir Dieu qui est proche de vous, et
+                        attentif à vos soucis du quotidien.<br>
+                        Il n'y a personne qui puis transformer votre vie comme Jésus-Christ peut le faire. Il a un plan
+                        de bonheur pour votre Vie <br>
+                        Des millions de personnes à travers le monde ont choisi de se confier en lui. Il redonne espoir,
+                        force de vivre et il est toujours capable d'agir quand nous nous confions à lui.
+                    </p>
 
-            <a href="/images/views_church_all.jpg" data-lightbox="roadtrip"><img id="view" src="/images/views_church_1.jpg" height="300px" alt=""/></a>
-            <h2 style="color:skyblue"> <b>Bienvenue </b> à l'église UN CHANT NOUVEAU où la vie bouge</h2>
-            <p class="lead">
-                L'Eglise  UN CHANT NOUVEAU est une église membre de la Fédération Protestante de France.<br>
-                Chaque dimanche nous nous réunissons pour célébrer Dieu, étudier la bible et vivre un temps de partage en toute amitié
-             </p>
-            <p class="lead">
-               Choissisez le meilleur pour votre vie, et venez découvrir Dieu qui est proche de vous, et attentif à vos soucis du quotidien.<br>
-                Il n'y a personne qui puis transformer votre vie comme Jésus-Christ peut le faire. Il a un plan de bonheur pour votre Vie <br>
-                Des millions de personnes à travers le monde ont choisi de se confier en lui. Il redonne espoir, force de vivre et il est toujours capable d'agir quand nous nous confions à lui.
-            </p>
-            <p class="lead">
-                Choissisez le meilleur pour votre vie, et venez découvrir Dieu qui est proche de vous, et attentif à vos soucis du quotidien.<br>
-                Il n'y a personne qui puis transformer votre vie comme Jésus-Christ peut le faire. Il a un plan de bonheur pour votre Vie <br>
-                Des millions de personnes à travers le monde ont choisi de se confier en lui. Il redonne espoir, force de vivre et il est toujours capable d'agir quand nous nous confions à lui.
-            </p>
+                    <h2 style="color:skyblue">Un <b>couple</b> de Pasteurs qui aimerait <b>vous</b> rencontrer</h2>
+                    <p class="lead">
+                        <i>"vous avez de la valeur aux yeux de Dieu, vous avez de l'importance et Il vous aime."</i>
+                    </p>
+                    <p style="text-align: right"><i>Pierre Yves et Valérie ABRESOL</i></p>
 
-            <h2 style="color:skyblue">Un <b>couple</b> de Pasteurs qui aimerait <b>vous</b> rencontrer</h2>
-            <p class="lead">
-               <i>"vous avez de la valeur aux yeux de Dieu, vous avez de l'importance et Il vous aime."</i>
-            </p>
-            <p style="text-align: right"><i>Pierre Yves et Valérie ABRESOL</i></p>
+                    <h2 style="color:skyblue">Un <b>club</b> pour<b> vos</b> enfants</h2>
+                    <p>
+                        Des enseignements, leçons bibliques, histoires racontées, danses, chants, théatre, et encore
+                        divers activités.<br>
+                        Les enfants s'y retrouvent avec Joie...
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 style="color:skyblue"><b>CELEBRATION</b> DYNAMIQUE!</h2>
+                    <a href="/images/bulle.png" data-lightbox="/images/bulle.png"><img id="bulle" src="/images/bulle.png"
+                                                                               height="300px" alt=""/></a>
+                    <h3><b>Au programme:</b></h3>
+                    <p>
+                        <b> Musique</b> Gospel, Africaine & Variétés, <b>témoignages</b> de vies transformées, <b>
+                        Enseignements</b>, club des <b>ados</b> et des <b>enfants</b>.
+                    </p>
+                    <p>
+                        Dans la <b>semaine</b>, il y a aussi des activités :
+                    </p>
+                    <table class="table">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        <tr style=" background-color:skyblue">
+                            <td class="col-xs-4"><b>JOUR</b></td>
+                            <td class="col-xs-4"><a href="/programmes/horaires"><b>HORAIRES *</b></a></td>
+                            <td class="col-xs-4"><a href="activites"><b>ACTIVITES **</b></a></td>
+                        </tr>
+                        <tr>
+                            <td>Mardi</td>
+                            <td>14h - 16h</td>
+                            <td><a href="/activites/femmes">Groupe des femmes</a></td>
+                        </tr>
+                        <tr style=" background-color:skyblue">
+                            <td>Mercredi</td>
+                            <td>14h - 17h</td>
+                            <td><a href="/cultes/culte_russophone">Groupe russophone</a></td>
+                        </tr>
+                        <tr>
+                            <td>1 Vendredi sur 2</td>
+                            <td>19h - 21h</td>
+                            <td><a href="/activites/intercession">Groupe d'intercession</a></td>
+                        </tr>
+                        <tr style=" background-color:skyblue">
+                            <td>Vendredi</td>
+                            <td>19h30 - 21h30</td>
+                            <td><a href="/activites/louange">Groupe de Louange</a></td>
+                        </tr>
+                        <tr>
+                            <td>Samedi</td>
+                            <td>18h - 20h</td>
+                            <td><a href="/activites/jeunesse">Groupe de jeunes</a></td>
+                        </tr>
+                        <tr style=" background-color:skyblue">
+                            <td>1 Dimanche sur 2</td>
+                            <td>14h30 - 16h30</td>
+                            <td><a href="/cultes/culte_anglophone">Culte Bilingue</a></td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><p style="text-align: justify"><b>*</b> <i>Pour accéder au details d'activiter cliquer
+                                sur le lien "Activités" ou le nom de l'activité (ex: groupe de jeunes)</i></p><br>
+                                <p style="text-align: justify"><b>**</b> <i>Pour accéder au page dediée aux horaires
+                                    cliquez sur "Horaires"</i></p>
+                            </td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                    <p>
+                        Pour les autres activités, par example les Ecoles bibliques ou groupes de maisons, etc.<br>
+                        N'hesitez pas à nous "<span style="text-decoration: underline;"><a href="contact">contacter</a></span>"
+                        pour plus d'informations.
+                    </p>
 
-            <h2 style="color:skyblue">Un <b>club</b>pour<b>vos</b> enfants</h2>
-            <p class="lead">
-                Des enseignements, leçons bibliques, histoires racontées, danses, chants, théatre, et encore divers activités.<br>
-                Les enfants s'y retrouvent avec Joie...
-            </p>
-
+                </div>
+            </div>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-            <a href="/images/louange_3_all.jpg" data-lightbox="roadtrip"> <img id="head_church" src="/images/louange_3.jpg" alt=""/></a>
-            <h2 style="color:skyblue"><b>CELEBRATION</b> DYNAMIQUE!</h2>
-            <a href="/images/bulle.png" data-lightbox="roadtrip"><img id="bulle" src="/images/bulle.png" height="300px" alt=""/></a>
-            <h3> <b>Au programme:</b></h3>
-            <p class="lead">
-                <b> Musique</b> Gospel, Africaine & Variétés, <b>témoignages</b> de vies transformées, <b> Enseignements</b>, club des <b>ados</b> et des <b>enfants</b>.
-            </p>
-            <p class="lead">
-                Dans la <b>semaine</b>, il y a aussi des activités :
-            </p>
-            <table class="table">
-                <thead>
-                </thead>
-                <tbody>
-                    <tr style=" background-color:skyblue">
-                        <td class="col-xs-4"><b>JOUR</b></td>
-                        <td class="col-xs-4"><a href="/programmes/horaires"><b>HORAIRES *</b></a></td>
-                        <td class="col-xs-4"><a href="activites"><b>ACTIVITES **</b></a></td>
-                    </tr>
-                    <tr>
-                        <td>Mardi</td>
-                        <td>14h - 16h</td>
-                        <td><a href="/activites/femmes">Groupe des femmes</a></td>
-                    </tr>
-                    <tr style=" background-color:skyblue">
-                        <td>Mercredi</td>
-                        <td>14h - 17h </td>
-                        <td><a href="/cultes/culte_russophone">Groupe russophone</a></td>
-                    </tr>
-                    <tr>
-                        <td>1 Vendredi sur 2</td>
-                        <td>19h - 21h</td>
-                        <td><a href="/activites/intercession">Groupe d'intercession</a></td>
-                    </tr>
-                    <tr style=" background-color:skyblue">
-                        <td>Vendredi</td>
-                        <td>19h30 - 21h30</td>
-                        <td><a href="/activites/louange">Groupe de Louange</a></td>
-                    </tr>
-                    <tr>
-                        <td>Samedi</td>
-                        <td>18h - 20h</td>
-                        <td><a href="/activites/jeunesse">Groupe de jeunes</a></td>
-                    </tr>
-                    <tr style=" background-color:skyblue">
-                        <td>1 Dimanche sur 2</td>
-                        <td>14h30 - 16h30</td>
-                        <td><a href="/cultes/culte_anglophone">Culte Bilingue</a></td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><p style="text-align: justify"><b>*</b> <i>Pour accéder au details d'activiter cliquer sur le lien "Activités" ou le nom de l'activité (ex: groupe de jeunes)</i> </p><br>
-                            <p style="text-align: justify"><b>**</b> <i>Pour accéder au page dediée aux horaires cliquez sur "Horaires"</i></p>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <p class="lead">
-                Pour les autres activités, par example les Ecoles bibliques ou groupes de maisons, etc.<br> N'hesitez pas à nous "<span style="text-decoration: underline;"><a href="contact">contacter</a></span>" pour plus d'informations.
-            </p>
-
+        <hr>
+        <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <p>En plus de la célébration du dimanche, nous avons divers groupes qui se réunissent en semaine
+                        dans une atmosphère fraternelle et conviviale. Jeunes et moins jeunes, hommes et femmes,
+                        découvrez ces groupes et trouvez votre place !.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div><!-- END container-wrap -->
+
+
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div w3-include-html="/html/footer.html"></div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 <script src="/javascripts/lightbox/lightbox.js"></script>
 <script>
     lightbox.option({
@@ -130,9 +273,9 @@
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
 <script src="/javascripts/w3.js"></script>
 <script> w3.includeHTML();</script>
+
 </body>
 </html>
+
