@@ -20,19 +20,19 @@ module.exports.router = function(app) {
 
 
   app.get('/', function (req, res, next) {
-    return res.sendFile(path.join(__dirname,'../views/','/accueil.html'));
+    return res.sendfile(path.join(__dirname,'../views/','/accueil.html'));
   });
 
   app.get('/:routesParams', function (req, res, next) {
     var urlToSend =req.params.routesParams +'.html';
-    return res.sendFile(path.join(__dirname,'../views/',urlToSend));
+    return res.sendfile(path.join(__dirname,'../views/',urlToSend));
   });
 
   //Routes des exhortations
   app.get('/exhortations/:routesParams', function (req, res, next) {
     if(_.includes(exhortationSubject,req.params.routesParams)){
       var urlToSend =req.params.routesParams +'.html';
-      return res.sendFile(path.join(__dirname,'../views/exhortations/',urlToSend));
+      return res.sendfile(path.join(__dirname,'../views/exhortations/',urlToSend));
     }
     else{
       return res.redirect('/'+req.params.routesParams);
@@ -43,7 +43,7 @@ module.exports.router = function(app) {
   app.get('/activites/:routesParams', function (req, res, next) {
     if(_.includes(activitesSubject,req.params.routesParams)){
       var urlToSend =req.params.routesParams +'.html';
-      return res.sendFile(path.join(__dirname,'../views/activites/',urlToSend));
+      return res.sendfile(path.join(__dirname,'../views/activites/',urlToSend));
     }
     else{
       return res.redirect('/'+req.params.routesParams);
@@ -54,7 +54,7 @@ module.exports.router = function(app) {
   app.get('/cultes/:routesParams', function (req, res, next) {
     if(_.includes(cultesSubject,req.params.routesParams)){
       var urlToSend =req.params.routesParams +'.html';
-      return res.sendFile(path.join(__dirname,'../views/cultes/',urlToSend));
+      return res.sendfile(path.join(__dirname,'../views/cultes/',urlToSend));
     }
     else{
       return res.redirect('/'+req.params.routesParams);
@@ -65,7 +65,7 @@ module.exports.router = function(app) {
   app.get('/programmes/:routesParams', function (req, res, next) {
     if(_.includes(programmesSubject,req.params.routesParams)){
       var urlToSend =req.params.routesParams +'.html';
-      return res.sendFile(path.join(__dirname,'../views/programmes/',urlToSend));
+      return res.sendfile(path.join(__dirname,'../views/programmes/',urlToSend));
     }
     else{
       return res.redirect('/'+req.params.routesParams);
@@ -76,7 +76,7 @@ module.exports.router = function(app) {
   app.get('/mediateque/:routesParams', function (req, res, next) {
     if(_.includes(mediatequeSubject,req.params.routesParams)){
       var urlToSend =req.params.routesParams +'.html';
-      return res.sendFile(path.join(__dirname,'../views/mediateque/',urlToSend));
+      return res.sendfile(path.join(__dirname,'../views/mediateque/',urlToSend));
     }
     else{
       return res.redirect('/'+req.params.routesParams);
