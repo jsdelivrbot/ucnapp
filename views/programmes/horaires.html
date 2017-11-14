@@ -1,83 +1,310 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Horaires</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Les horaires</title>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
-<div id="body_container">
-    <div id="border_image_1">
 
-        <div class="row">
-            <div class="col-xs-4 col-md-4">
-                <h3><b>Groupe de Jeunes</b></h3>
-                <a href="/images/jeunesse_julien.jpg" data-lightbox="roadtrip"><img id="groupe_jeune_head"
-                                                                                    src="/images/groupe_jeune_head.jpg"
-                                                                                    alt=""/></a><br>
-                <h4><b>Samedi 18H - 20H</b></h4>
-                <p><a href="/activites/jeunesse">Details </a></p>
+<div class="fh5co-loader"></div>
+
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container-wrap">
+            <div class="top-menu">
+                <div class="row">
+                    <div class="col-md-12 col-offset-0 text-center">
+                        <a href="accueil.html" data-lightbox="roadtrip"><img id="head_church"
+                                                                             src="/images/logo_eglise.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-md-12 col-md-offset-0 text-center menu-1">
+                        <ul>
+                            <li class="active"><a href="accueil">Accueil</a></li>
+                            <li class="has-dropdown">
+                                <a href="presentation">Notre mission</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="presentation">QUI SOMMES NOUS?</a></li>
+                                    <li class=""><a href="organigramme">ORGANIGRAMME</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="activites.html">Activités</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/activites">PRESENTATION GENERALE</a></li>
+                                    <li class=""><a href="/activites/jeunesse">JEUNESSE</a></li>
+                                    <li class=""><a href="/activites/intercession">INTERCESSION</a></li>
+                                    <li class=""><a href="/activites/louange">LOUANGE</a></li>
+                                    <li class=""><a href="/activites/club">LE CLUB</a></li>
+                                    <li class=""><a href="/activites/femmes">GROUPE DES FEMMES</a></li>
+                                    <li class=""><a href="/activites/equipe_accueil">EQUIPE D'ACCUEIL</a></li>
+                                    <li class=""><a href="/activites/media">EQUIPE SONO</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_belgique">UN CHANT NOUVEAU
+                                        BELGIQUE</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_dieuze">UN CHANT NOUVEAU DIEUZE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="enseignements">Sermons</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="enseignements">PREDICATIONS</a></li>
+                                    <li class=""><a href="exhortations">EXHORTATIONS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/programmes/horaires">Nos cultes</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/programmes/horaires">HORAIRES</a></li>
+                                    <li class=""><a href="/cultes/main_culte">CULTE PRINCIPAL</a></li>
+                                    <li class=""><a href="/cultes/culte_anglophone">CULTE BILINGUE</a></li>
+                                    <li class=""><a href="/cultes/culte_russophone">CULTE RUSSOPHONE</a></li>
+                                    <li class=""><a href="/programmes/evenements">EVENEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/mediateque/cantiques">Médiathèque</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/mediateque/cantiques">PAROLES DE CHANTS</a></li>
+                                    <li class=""><a href="/photos">PHOTOS</a></li>
+                                    <li class=""><a href="/mediateque/billeterie_concert">CONCERT</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="contact">Contact</a></li>
+                            <li><a href="search"><img id="search_tag" src="/images/glyphicons-28-search.png"
+                                                      alt=""/></a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="col-xs-4 col-md-4">
-                <h3><b> Groupe d'intercession</b></h3>
-                <a href="/images/intercession_group.jpg" data-lightbox="roadtrip"><img id="groupe_intercession_head"
-                                                                                       src="/images/intercession_group_1.jpg"
-                                                                                       alt=""/></a><br>
-                <h4><b>Vendredi</b> (1 SUR 2)<b> 19H - 21H</b></h4>
-                <p><a href="/activites/intercession">Details </a></p>
-            </div>
-
-            <div class="col-xs-4 colmd-4">
-                <h3><b>Groupe Anglophone</b></h3>
-                <a href="/images/groupe_anglophonne_head_all.jpg" data-lightbox="roadtrip"><img
-                        id="groupe_anglophonne_head" src="/images/groupe_anglophonne_head.jpg" alt=""/></a><br>
-                <h4><b>Dimanche</b> (1 SUR 2)<b> 14H30 - 16H30</b></h4>
-                <p><a href="/cultes/culte_anglophone">Details </a></p>
-            </div>
-
         </div>
-        <br><br>
-        <div class="row">
-            <div class="col-xs-4 col-md-4">
-                <h3><b> Groupe de Louange</b></h3>
-                <a href="/images/louange_team.jpg" data-lightbox="roadtrip"><img id="louange_team"
-                                                                                 src="/images/louange_team.jpg" alt=""/></a><br>
-                <h4><b>Vendredi 19H30 - 21H30</b></h4>
-                <p><a href="/activites/louange">Details </a></p>
+    </nav>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(/images/views_church_all.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center slider-text">
+                                    <div class="slider-text-inner">
+                                        <h1>Nos services hebdomadaires</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-
-            <div class="col-xs-4 col-md-4">
-                <h3><b> Groupe des Femmes</b></h3>
-                <a href="/images/groupe_femmes_meeting_2.jpg" data-lightbox="roadtrip"><img id="groupe_femmes_head"
-                                                                                            src="/images/groupe_femmes_meeting_2_mini.jpg"
-                                                                                            alt=""/></a>
-                <h4><b>Mardi 14H - 16H</b></h4>
-                <p><a href="/activites/femmes">Details </a></p>
-            </div>
-
-            <div class="col-xs-4 col-md-4">
-                <h3><b> Groupe Russophone</b></h3>
-                <a href="/images/groupe_russophone_head_all.jpg" data-lightbox="roadtrip"><img
-                        id="groupe_russophone_head" src="/images/groupe_russophone_head.jpg" alt=""/><br></a>
-                <h4><b>Mercredi 14H - 17H</b></h4>
-                <p><a href="/cultes/culte_russophone">Details </a></p>
+        </aside>
+        <div id="fh5co-services_02" class="fh5co-light-grey_0">
+            <div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <br>
+                    <h2>Nos principaux programmes</h2>
+                </div>
             </div>
         </div>
-    </div>
+        <div id="fh5co-services_3" class="fh5co-light-grey_0">
+            <div class="row">
+                <div class="col-md-1 animate-box"></div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/jeunesse_julien.jpg" data-lightbox="/images/jeunesse_julien.jpg"><img
+                                id="link_details_3" src="/images/groupe_jeune_head.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3 style="color:black;"><b>Groupe de Jeunes</b></h3>
+                            <h3 style="color:black;"><b>Samedi 18H - 20H</b></h3>
+                            <p style="color:black;"><a href="/activites/jeunesse">Details </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/intercession_group.jpg" data-lightbox="/images/intercession_group.jpg"><img id="link_details_4"
+                                                                                                             src="/images/intercession_group_1.jpg"
+                                                                                                             alt=""/></a>
+                        <div class="desc">
+                            <h3 style="color:black;"><b> Groupe d'intercession</b></h3>
+                            <h3 style="color:black;"><b>Dimanche</b> (1 SUR 2)<b> 14H30 - 16H30</b></h3>
+                            <p style="color:black;"><a href="/activites/intercession">Details </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_anglophonne_head_all.jpg" data-lightbox="/images/groupe_anglophonne_head_all.jpg"> <img id="link_details_5"
+                                                                                               src="/images/groupe_anglophonne_head.jpg"
+                                                                                               alt=""/></a>
+                        <div class="desc">
+                            <h3 style="color:black;"><b>Groupe Anglophone</b></h3>
+                            <h3 style="color:black;"><b>Dimanche</b> (1 SUR 2)<b> 14H30 - 16H30</b></h3>
+                            <p style="color:black;"><a href="/cultes/culte_anglophone">Details </a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 animate-box"></div>
+            </div>
+        </div>
+        <br>
+        <div id="fh5co-services_4" class="fh5co-light-grey_0">
+            <div class="row">
+                <div class="col-md-1 animate-box"></div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/louange_team.jpg" data-lightbox="/images/louange_team.jpg"><img
+                                id="link_details_6" src="/images/louange_team.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3 style="color:black;"><b> Groupe de Louange</b></h3>
+                            <h3 style="color:black;"><b>Vendredi 19H30 - 21H30</b></h3>
+                            <p style="color:black;"><a href="/activites/louange">Details </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_femmes_meeting_2.jpg" data-lightbox="/images/groupe_femmes_meeting_2.jpg"><img
+                                id="groupe_anglophonne_head" src="/images/groupe_femmes_meeting_2_mini.jpg" alt=""/></a>
+                        <div class="desc">
+                            <h3 style="color:black;"><b> Groupe des Femmes</b></h3>
+                            <h3 style="color:black;"><b>Mardi 14H - 16H</b></h3>
+                            <p style="color:black;"><a href="/activites/femmes">Details </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_russophone_head_all.jpg" data-lightbox="/images/groupe_russophone_head_all.jpg"><img id="chant_nouveau_dieuze"
+                                                                                                               src="/images/groupe_russophone_head.jpg"
+                                                                                                               alt=""/></a>
+                        <div class="desc">
+                            <h3 style="color:black;"><b> Groupe Russophone</b></h3>
+                            <h3 style="color:black;"><b>Mercredi 14H - 17H</b></h3>
+                            <p style="color:black;"><a href="/cultes/culte_russophone">Details </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 animate-box"></div>
+                <br>
+            </div>
+        </div>
+        <br>
+        <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey_2">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <p>Venez faire partie de notre grande famille riche en couleurs et en cultures. Notre raison de
+                        vivre est de louer Dieu et ce qui fait notre joie c’est de partager notre Foi en Jésus
+                        Christ.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- END container-wrap -->
+
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div w3-include-html="/html/footer.html"></div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
-<br><br>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 <script src="/javascripts/lightbox/lightbox.js"></script>
 <script>
     lightbox.option({
@@ -85,10 +312,9 @@
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
 <script src="/javascripts/w3.js"></script>
 <script> w3.includeHTML();</script>
 
 </body>
 </html>
+

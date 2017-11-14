@@ -1,87 +1,282 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Culte principal</title>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css"
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
-<div id="body_container_p">
 
-    <div class="row" id="text_center">
-        <div class="col-sm-4">
-            <h3><b>L’Eglise Un Chant Nouveau Nancy</b></h3>
-            <a href="/images/groupe_pasteurs.jpg" data-lightbox="roadtrip"><img id="media"
-                                                                                src="/images/groupe_pasteurs_2.jpg"
-                                                                                alt=""/></a>
-            <br><br>
-            <p class="lead">
-                Venez faire partie de notre grande famille riche en couleurs et en cultures.
-                Notre raison de vivre est de louer Dieu et ce qui fait notre joie c’est de partager notre Foi en Jésus
-                Christ.
-                Assemblée Chrétienne où la vie bouge! <br>La foi est un style de vie et non une religion. Rejoignez-nous
-                et partageons l'amour de Jésus Christ.
-            </p>
+<div class="fh5co-loader"></div>
 
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container-wrap">
+            <div class="top-menu">
+                <div class="row">
+                    <div class="col-md-12 col-offset-0 text-center">
+                        <a href="accueil.html" data-lightbox="roadtrip"><img id="head_church"
+                                                                             src="/images/logo_eglise.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-md-12 col-md-offset-0 text-center menu-1">
+                        <ul>
+                            <li class="active"><a href="accueil">Accueil</a></li>
+                            <li class="has-dropdown">
+                                <a href="presentation">Notre mission</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="presentation">QUI SOMMES NOUS?</a></li>
+                                    <li class=""><a href="organigramme">ORGANIGRAMME</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="activites.html">Activités</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/activites">PRESENTATION GENERALE</a></li>
+                                    <li class=""><a href="/activites/jeunesse">JEUNESSE</a></li>
+                                    <li class=""><a href="/activites/intercession">INTERCESSION</a></li>
+                                    <li class=""><a href="/activites/louange">LOUANGE</a></li>
+                                    <li class=""><a href="/activites/club">LE CLUB</a></li>
+                                    <li class=""><a href="/activites/femmes">GROUPE DES FEMMES</a></li>
+                                    <li class=""><a href="/activites/equipe_accueil">EQUIPE D'ACCUEIL</a></li>
+                                    <li class=""><a href="/activites/media">EQUIPE SONO</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_belgique">UN CHANT NOUVEAU
+                                        BELGIQUE</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_dieuze">UN CHANT NOUVEAU DIEUZE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="enseignements">Sermons</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="enseignements">PREDICATIONS</a></li>
+                                    <li class=""><a href="exhortations">EXHORTATIONS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/programmes/horaires">Nos cultes</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/programmes/horaires">HORAIRES</a></li>
+                                    <li class=""><a href="/cultes/main_culte">CULTE PRINCIPAL</a></li>
+                                    <li class=""><a href="/cultes/culte_anglophone">CULTE BILINGUE</a></li>
+                                    <li class=""><a href="/cultes/culte_russophone">CULTE RUSSOPHONE</a></li>
+                                    <li class=""><a href="/programmes/evenements">EVENEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/mediateque/cantiques">Médiathèque</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/mediateque/cantiques">PAROLES DE CHANTS</a></li>
+                                    <li class=""><a href="/photos">PHOTOS</a></li>
+                                    <li class=""><a href="/mediateque/billeterie_concert">CONCERT</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="contact">Contact</a></li>
+                            <li><a href="search"><img id="search_tag" src="/images/glyphicons-28-search.png"
+                                                      alt=""/></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <div class="col-sm-4">
-            <h3>
-                <b>Ressourcez-vous !</b>
-            </h3>
-            <a href="/images/church_2_all.jpg" data-lightbox="roadtrip"><img id="head_church" src="/images/church_2.jpg"
-                                                                             alt=""/></a>
-            <br><br>
-            <p class="lead">
-                <i>"Poussez vers l'Eternel des cris de joie, Vous tous, habitants de la terre ! <br>
-                    Servez l'Eternel, avec joie, Venez avec allégresse en sa présence !<br>
-                    Sachez que l'Eternel est Dieu ! C'est lui qui nous a faits, et nous lui appartenons; Nous sommes son
-                    peuple, et le troupeau de son pâturage.<br>
-                    Entrez dans ses portes avec des louanges, Dans ses parvis avec des cantiques ! Célébrez-le, bénissez
-                    son nom ! <br>
-                    Car l'Eternel est bon; sa bonté dure toujours, Et sa fidélité de génération en génération."</i> <br>
-                <b>Psaumes 100</b>
-            </p>
-
+    </nav>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(/images/views_church_all.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center slider-text">
+                                    <div class="slider-text-inner">
+                                        <h1>Le Culte de dimanche</h1>
+                                        <h2>A partir de 10h</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div id="fh5co-services" class="fh5co-light-grey" style="background-color:white;">
+            <div class="row">
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/groupe_pasteurs.jpg" data-lightbox="/images/groupe_pasteurs.jpg" class="img-holder"><img class="img-responsive"
+                                                                                                                              src="/images/groupe_pasteurs_2.jpg"></a>
+                        <div class="desc">
+                            <h3 style="color: black;"><b>L’Eglise Un Chant Nouveau Nancy</b></h3>
+                            <p style="color: black;"> Venez faire partie de notre grande famille riche en couleurs et en cultures.
+                                Notre raison de vivre est de louer Dieu et ce qui fait notre joie c’est de partager notre Foi en Jésus
+                                Christ.
+                                Assemblée Chrétienne où la vie bouge! <br>La foi est un style de vie et non une religion. Rejoignez-nous
+                                et partageons l'amour de Jésus Christ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/church_2_all.jpg" data-lightbox="/images/church_2_all.jpg" class="img-holder"><img class="img-responsive"
+                                                                                                                                src="/images/church_2.jpg"></a>
+                        <div class="desc">
+                            <h3 style="color: black;"><b>Ressourcez-vous !</b>
+                            </h3>
+                            <p style="color: black;">
+                                <i>"Poussez vers l'Eternel des cris de joie, Vous tous, habitants de la terre ! <br>
+                                    Servez l'Eternel, avec joie, Venez avec allégresse en sa présence !<br>
+                                    Sachez que l'Eternel est Dieu ! C'est lui qui nous a faits, et nous lui appartenons; Nous sommes son
+                                    peuple, et le troupeau de son pâturage.<br>
+                                    Entrez dans ses portes avec des louanges, Dans ses parvis avec des cantiques ! Célébrez-le, bénissez
+                                    son nom ! <br>
+                                    Car l'Eternel est bon; sa bonté dure toujours, Et sa fidélité de génération en génération."</i> <br>
+                                <b>Psaumes 100</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/church.jpg" data-lightbox="/images/church.jpg" class="img-holder"><img class="img-responsive"
+                                                                                                                        src="/images/church_1.jpg"
+                        ></a>
+                        <div class="desc">
+                            <h3 style="color: black;"><b>La Foi est un style de vie au quotidien!</b>
+                            </h3>
+                            <p style="color: black;">
+                                Beaucoup de ceux qui entendent l'enseignement de la Parole de la foi concernant la guérison divine ou la
+                                prospérité pensent : <i>"Tiens, je vais essayer cela !"</i>
+                                Mais dès que les circonstances deviennent difficiles, ils abandonnent.
+                                Laissez-moi vous prévenir : vivre par la foi n'est pas quelque chose qu'on essaie.
+                                C'est un style de vie. Vous le faites quand c'est difficile, et vous le faites quand c'est facile.
+                                Vous le faites constamment, non seulement pour profiter des bénéfices qui en découlent, mais parce que
+                                vous savez que la foi est agréable à Dieu (<b>Hébreux 11:6</b>)
+                            </p>
+                            <p style="color: black;">
+                                Tôt ou tard, vous vivrez des temps d'épreuve. Mais je peux vous assurer que vous en sortirez vainqueur,
+                                si vous endurez les afflictions comme un bon soldat.
+                                Si vous refusez de vous décourager et de renoncer, vous aurez la victoire.
+                                Car la seule façon pour un chrétien d'être vaincu, c'est quand lui-même abandonne.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-4">
-            <h3>
-                <b>La Foi est un style de vie au quotidien!</b>
-            </h3>
-            <a href="/images/church.jpg" data-lightbox="roadtrip"><img id="church_1" src="/images/church_1.jpg" alt=""/></a>
-            <br><br>
-            <p class="lead">
-                Beaucoup de ceux qui entendent l'enseignement de la Parole de la foi concernant la guérison divine ou la
-                prospérité pensent : <i>"Tiens, je vais essayer cela !"</i>
-                Mais dès que les circonstances deviennent difficiles, ils abandonnent.
-                Laissez-moi vous prévenir : vivre par la foi n'est pas quelque chose qu'on essaie.
-                C'est un style de vie. Vous le faites quand c'est difficile, et vous le faites quand c'est facile.
-                Vous le faites constamment, non seulement pour profiter des bénéfices qui en découlent, mais parce que
-                vous savez que la foi est agréable à Dieu (<b>Hébreux 11:6</b>)
-            </p>
-            <p>
-                Tôt ou tard, vous vivrez des temps d'épreuve. Mais je peux vous assurer que vous en sortirez vainqueur,
-                si vous endurez les afflictions comme un bon soldat.
-                Si vous refusez de vous décourager et de renoncer, vous aurez la victoire.
-                Car la seule façon pour un chrétien d'être vaincu, c'est quand lui-même abandonne.
-            </p>
-
+        <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <p>En plus de la célébration du dimanche, nous avons divers groupes qui se réunissent en semaine
+                        dans une atmosphère fraternelle et conviviale. Jeunes et moins jeunes, hommes et femmes,
+                        découvrez ces groupes et trouvez votre place !.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div><!-- END container-wrap -->
 
-    </div>
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div w3-include-html="/html/footer.html"></div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 <script src="/javascripts/lightbox/lightbox.js"></script>
 <script>
     lightbox.option({
@@ -89,9 +284,9 @@
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
 <script src="/javascripts/w3.js"></script>
 <script> w3.includeHTML();</script>
+
 </body>
 </html>
+

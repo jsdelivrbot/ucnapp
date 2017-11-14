@@ -21,8 +21,8 @@ upImg.uploadedImages = function(tab,cb){
   for(var i=0; i<tab.length; i++) {
     var elemImage = document.createElement("IMG");
     elemImage.setAttribute("src", tab[i]);
-    elemImage.setAttribute("width", "200px");
-    elemImage.setAttribute("height", "200px");
+    elemImage.setAttribute("width", "400px");
+    elemImage.setAttribute("height", "320px");
     elemImage.setAttribute("alt", "Jeunes");
     elemImage.setAttribute("data-lightbox", "roadtrip");
     elemImage.style.marginRight ="5px";

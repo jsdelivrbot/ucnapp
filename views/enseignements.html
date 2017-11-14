@@ -1,82 +1,321 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Enseignements</title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
+    <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
-<div id="body_container_speach">
 
-    <div class="row">
-        <h3><b><span style="text-decoration: underline;">Enseignements Vidéos</span></b></h3>
-        <ul class="list-inline">
-            <li>
-                <h4><i><b>"Bénissez"</b></i> avec Pasteur Valerie ABRESOL</h4>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/cU6tZOqrvOw" frameborder="0"
-                        allowfullscreen></iframe>
-            </li>
+<div class="fh5co-loader"></div>
 
-            <li>
-                <h4><i><b>"Marcher dans la volonté de Dieu"</b></i> avec Marie Ngoy</h4>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aLrYUhOUzwI" frameborder="0"
-                        allowfullscreen></iframe>
-            </li>
-            <li>
-                <a class="navbar-brand" href="https://www.youtube.com/channel/UCoF7SzgKMqLuzyHJ2YUespg/videos"> <b>Autres
-                    vidéos d'enseignements</b></a>
-            </li>
-        </ul>
-    </div>
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container-wrap">
+            <div class="top-menu">
+                <div class="row">
+                    <div class="col-md-12 col-offset-0 text-center">
+                        <a href="accueil.html" data-lightbox="roadtrip"><img id="head_church"
+                                                                             src="/images/logo_eglise.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-md-12 col-md-offset-0 text-center menu-1">
+                        <ul>
+                            <li class="active"><a href="accueil">Accueil</a></li>
+                            <li class="has-dropdown">
+                                <a href="presentation">Notre mission</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="presentation">QUI SOMMES NOUS?</a></li>
+                                    <li class=""><a href="organigramme">ORGANIGRAMME</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="activites.html">Activités</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/activites">PRESENTATION GENERALE</a></li>
+                                    <li class=""><a href="/activites/jeunesse">JEUNESSE</a></li>
+                                    <li class=""><a href="/activites/intercession">INTERCESSION</a></li>
+                                    <li class=""><a href="/activites/louange">LOUANGE</a></li>
+                                    <li class=""><a href="/activites/club">LE CLUB</a></li>
+                                    <li class=""><a href="/activites/femmes">GROUPE DES FEMMES</a></li>
+                                    <li class=""><a href="/activites/equipe_accueil">EQUIPE D'ACCUEIL</a></li>
+                                    <li class=""><a href="/activites/media">EQUIPE SONO</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_belgique">UN CHANT NOUVEAU
+                                        BELGIQUE</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_dieuze">UN CHANT NOUVEAU DIEUZE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="enseignements">Sermons</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="enseignements">PREDICATIONS</a></li>
+                                    <li class=""><a href="exhortations">EXHORTATIONS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/programmes/horaires">Nos cultes</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/programmes/horaires">HORAIRES</a></li>
+                                    <li class=""><a href="/cultes/main_culte">CULTE PRINCIPAL</a></li>
+                                    <li class=""><a href="/cultes/culte_anglophone">CULTE BILINGUE</a></li>
+                                    <li class=""><a href="/cultes/culte_russophone">CULTE RUSSOPHONE</a></li>
+                                    <li class=""><a href="/programmes/evenements">EVENEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/mediateque/cantiques">Médiathèque</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/mediateque/cantiques">PAROLES DE CHANTS</a></li>
+                                    <li class=""><a href="/photos">PHOTOS</a></li>
+                                    <li class=""><a href="/mediateque/billeterie_concert">CONCERT</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="contact">Contact</a></li>
+                            <li><a href="search"><img id="search_tag" src="/images/glyphicons-28-search.png"
+                                                      alt=""/></a></li>
+                        </ul>
+                    </div>
+                </div>
 
-    <div class="row">
-        <h3><b><span style="text-decoration: underline;">Playlists vidéos</span></b></h3>
-        <ul class="list-inline">
-            <li>
-                <h4><i><b>"Une minute d'enseignement"</b></i> avec Pasteur Pierre-Yves ABRESOL</h4>
-                <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/LisaXa1lbcQ?list=PLab1qmQJO88KqUPFfHcx1ZFOen_rV0tyl"
-                        frameborder="0"
-                        allowfullscreen></iframe>
-            </li>
+            </div>
+        </div>
+    </nav>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(images/img_bg_2.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center slider-text">
+                                    <div class="slider-text-inner">
+                                        <h1>Regarder nos predications</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div id="fh5co-sermon">
+            <div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <h2>Les enseignements en vidéos</h2>
+                    <p><i>"Ainsi la foi vient de ce qu'on entend, et ce qu'on entend vient de la parole de Christ."</i><br>
+                        <b>Romains 10:17</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center animate-box">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-1.jpg);">
+                            <div class="play">
+                                <iframe height="250" src="https://www.youtube.com/embed/cU6tZOqrvOw" frameborder="0"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h3>Bénissez</h3>
+                        <span>Pasteur Valérie ABRESSOL</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-3.jpg);">
+                            <div class="play">
+                                <iframe height="250" src="https://www.youtube.com/embed/aLrYUhOUzwI" frameborder="0"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h3>Marcher dans la volonté de Dieu</h3>
+                        <span>Marie MANGA NKOY</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-2.jpg);">
+                            <div class="play">
+                                <iframe height="250" src="https://www.youtube.com/embed/YClZnGMD3Oo" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h3>Es tu un ami de Dieu?</h3>
+                        <span>Pasteur RObert MAKELEBO</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-1.jpg);">
+                            <div class="play">
+                                <iframe height="250"
+                                        src="https://www.youtube.com/embed/LisaXa1lbcQ?list=PLab1qmQJO88KqUPFfHcx1ZFOen_rV0tyl"
+                                        frameborder="0"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h3>Une minute d'enseignement</h3>
+                        <span>Pasteur Pierre-Yves ABRESOL</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-3.jpg);">
+                            <div class="play">
+                                <iframe height="250"
+                                        src="https://www.youtube.com/embed/videoseries?list=PLab1qmQJO88JoSIbmT1jFMw624_3qF0B_"
+                                        frameborder="0"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h3>Louange / Adoration</h3>
+                        <span>Worship Sessions</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                    <div class="sermon-entry">
+                        <div class="sermon" style="background-image: url(images/sermon-2.jpg);">
+                            <div class="play">
+                                <iframe height="250"
+                                        src="https://www.youtube.com/embed/videoseries?list=PLab1qmQJO88IxBrsgfejtTPO629_vFeJH"
+                                        frameborder="0"
+                                        allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <h3>Notre relation avec Dieu</h3>
+                        <span>Pasteur Aristide Ibinda</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fh5co-counter" class="fh5co-counters">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <h3>
+                        Ressourcez-vous !
+                    </h3>
 
-            <li>
-                <h4><i><b>Louange / Adoration</b></i></h4>
-                <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/videoseries?list=PLab1qmQJO88JoSIbmT1jFMw624_3qF0B_"
-                        frameborder="0"
-                        allowfullscreen></iframe>
-            </li>
+                    <p class="excerpt">
+                        <i>"Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de
+                            l’intelligence,
+                            afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et
+                            parfait."</i>
+                        <br>
+                        <b>Romains 12:2</b>
+                    </p>
+                    <p class="excerpt">
+                        Retrouvez nos enseignements vidéos et audios et soyez renouvelés dans votre intelligence sur
+                        notre <b>chaine Youtube UCN TV</b> <a
+                            href="https://www.youtube.com/channel/UCoF7SzgKMqLuzyHJ2YUespg">
+                        <img id="head_youtube" src="/images/logo_youtube.jpg" alt=""/>
+                    </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- END container-wrap -->
 
-            <li>
-                <h4>
-                    <i><b>"Notre relation avec Dieu</b></i>
-                </h4>
-                <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/videoseries?list=PLab1qmQJO88IxBrsgfejtTPO629_vFeJH"
-                        frameborder="0"
-                        allowfullscreen></iframe>
-            </li>
-            <li>
-                <h3>
-                    <a class="navbar-brand"
-                       href="https://www.youtube.com/channel/UCoF7SzgKMqLuzyHJ2YUespg/playlists"><b><span
-                            style="text-decoration: underline;">Autres playlists d'enseignements</span></b></a>
-                </h3>
-            </li>
-
-        </ul>
-    </div>
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div w3-include-html="/html/footer.html"></div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
-<br><br>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 <script src="/javascripts/lightbox/lightbox.js"></script>
 <script>
     lightbox.option({
@@ -84,12 +323,8 @@
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
 <script src="/javascripts/w3.js"></script>
 <script> w3.includeHTML();</script>
+
 </body>
 </html>
-
-
-

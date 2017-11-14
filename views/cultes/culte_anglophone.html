@@ -1,84 +1,301 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title> Culte bilingue</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Culte bilingue</title>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="/stylesheets/style_home.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link href="/stylesheets/lightbox/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheets/exploring/css/style.css">
-    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.7.min.css">
+
+    <!-- Modernizr JS -->
+    <script src="/javascripts/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="/javascripts/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div w3-include-html="/html/header_bar.html"></div>
-<div w3-include-html="/html/menu.html"></div>
-<div id="body_container_p">
 
-    <div class="row" id="text_center">
-        <div class="col-sm-4">
-            <h3><b>Culte Bilingue</b></h3>
-            <a href="/images/tata_all.jpg" data-lightbox="roadtrip"><img id="tata_vicky" src="/images/tata_vicky.jpg"
-                                                                         alt=""/></a>
-            <br><br>
-            <p class="lead">
-                <i>"L'Eternel est mon berger : je ne manquerai de rien.<br>
-                    Il me fait reposer dans de verts pâturages, Il me dirige près des eaux paisibles.<br> Il restaure
-                    mon âme, Il me conduit dans les sentiers de la justice, A cause de son nom.<br>
-                    Quand je marche dans la vallée de l'ombre de la mort, Je ne crains aucun mal, car tu es avec moi: Ta
-                    houlette et ton bâton me rassurent. <br>Tu dresses devant moi une table, En face de mes adversaires;
-                    Tu oins d'huile ma tête, Et ma coupe déborde.
-                    <br>Oui, le bonheur et la grâce m'accompagneront Tous les jours de ma vie, Et j'habiterai dans la
-                    maison de l'Eternel Jusqu'à la fin de mes jours."<br></i>
-                <b> Psaumes 23</b>
-            </p>
+<div class="fh5co-loader"></div>
 
+<div id="page">
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container-wrap">
+            <div class="top-menu">
+                <div class="row">
+                    <div class="col-md-12 col-offset-0 text-center">
+                        <a href="accueil.html" data-lightbox="roadtrip"><img id="head_church"
+                                                                             src="/images/logo_eglise.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-md-12 col-md-offset-0 text-center menu-1">
+                        <ul>
+                            <li class="active"><a href="accueil">Accueil</a></li>
+                            <li class="has-dropdown">
+                                <a href="presentation">Notre mission</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="presentation">QUI SOMMES NOUS?</a></li>
+                                    <li class=""><a href="organigramme">ORGANIGRAMME</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="activites.html">Activités</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/activites">PRESENTATION GENERALE</a></li>
+                                    <li class=""><a href="/activites/jeunesse">JEUNESSE</a></li>
+                                    <li class=""><a href="/activites/intercession">INTERCESSION</a></li>
+                                    <li class=""><a href="/activites/louange">LOUANGE</a></li>
+                                    <li class=""><a href="/activites/club">LE CLUB</a></li>
+                                    <li class=""><a href="/activites/femmes">GROUPE DES FEMMES</a></li>
+                                    <li class=""><a href="/activites/equipe_accueil">EQUIPE D'ACCUEIL</a></li>
+                                    <li class=""><a href="/activites/media">EQUIPE SONO</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_belgique">UN CHANT NOUVEAU
+                                        BELGIQUE</a></li>
+                                    <li class=""><a href="/activites/chant_nouveau_dieuze">UN CHANT NOUVEAU DIEUZE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="enseignements">Sermons</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="enseignements">PREDICATIONS</a></li>
+                                    <li class=""><a href="exhortations">EXHORTATIONS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/programmes/horaires">Nos cultes</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/programmes/horaires">HORAIRES</a></li>
+                                    <li class=""><a href="/cultes/main_culte">CULTE PRINCIPAL</a></li>
+                                    <li class=""><a href="/cultes/culte_anglophone">CULTE BILINGUE</a></li>
+                                    <li class=""><a href="/cultes/culte_russophone">CULTE RUSSOPHONE</a></li>
+                                    <li class=""><a href="/programmes/evenements">EVENEMENTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="/mediateque/cantiques">Médiathèque</a>
+                                <ul class="dropdown">
+                                    <li class=""><a href="/mediateque/cantiques">PAROLES DE CHANTS</a></li>
+                                    <li class=""><a href="/photos">PHOTOS</a></li>
+                                    <li class=""><a href="/mediateque/billeterie_concert">CONCERT</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="contact">Contact</a></li>
+                            <li><a href="search"><img id="search_tag" src="/images/glyphicons-28-search.png"
+                                                      alt=""/></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <div class="col-sm-4">
-            <h3><b>
-                You are the light of the world
-            </b></h3>
-            <a href="/images/english_team.jpg" data-lightbox="roadtrip"><img id="church_3" src="/images/english_team_mini.jpg"
-                                                                             alt=""/></a>
-            <br><br>
-            <p class="lead">
-                <i>"Vous êtes le sel de la terre. Mais si le sel perd sa saveur, avec quoi la lui rendra-t-on? Il ne
-                    sert plus qu'à être jeté dehors, et foulé aux pieds par les hommes. ! <br>
-                    Vous êtes la lumière du monde. Une ville située sur une montagne ne peut être cachée;<br>
-                    et on n'allume pas une lampe pour la mettre sous le boisseau, mais on la met sur le chandelier, et
-                    elle éclaire tous ceux qui sont dans la maison.…."</i> <br>
-                <b>Mathieu 5: 13 - 15</b>
-            </p>
-
+    </nav>
+    <div class="container-wrap">
+        <aside id="fh5co-hero">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background-image: url(/images/english_bilingue.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 text-center slider-text">
+                                    <div class="slider-text-inner">
+                                        <h1>Le Culte Bilingue</h1>
+                                        <h2>Dimanche (1 SUR 2) 14H30 - 16H30</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div id="fh5co-services" class="fh5co-light-grey" style="background-color:white;">
+            <div class="row">
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/tata_all.jpg" data-lightbox="/images/tata_all.jpg" class="img-holder"><img
+                                class="img-responsive"
+                                src="/images/tata_vicky.jpg"></a>
+                        <div class="desc">
+                            <h3 style="color: black;"><b>Culte Bilingue</b></h3>
+                            <p style="color: black;"><i>"The Lord is my shepherd, I lack nothing.
+                                <br>He makes me lie down in green pastures,
+                                he leads me beside quiet waters,<br>he refreshes my soul.
+                                He guides me along the right paths
+                                for his name’s sake.<br>Even though I walk
+                                through the darkest valley,[a]
+                                I will fear no evil,
+                                for you are with me;
+                                your rod and your staff,
+                                they comfort me. <br>You prepare a table before me
+                                in the presence of my enemies.
+                                You anoint my head with oil;
+                                my cup overflows.<br>Surely your goodness and love will follow me
+                                all the days of my life,
+                                and I will dwell in the house of the Lord
+                                forever.."<br></i>
+                                <b> Psalm 23</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/church_2_all.jpg" data-lightbox="/images/church_2_all.jpg"
+                           class="img-holder"><img class="img-responsive"
+                                                   src="/images/church_2.jpg"></a>
+                        <div class="desc">
+                            <h3 style="color: black;"><b>
+                                You are the light of the world
+                            </b></h3>
+                            <p style="color: black;">
+                                <i>"You are the salt of the earth. But if the salt loses its saltiness, how can it be
+                                    made salty again?
+                                    It is no longer good for anything, except to be thrown out and trampled underfoot.
+                                    <br>“You are the light of the world. A town built on a hill cannot be hidden. <br>
+                                    Neither do people
+                                    light a lamp and put it under a bowl. Instead they put it on its stand, and it gives
+                                    light to
+                                    everyone in the house..…."</i> <br>
+                                <b>Matthew 5: 13 - 15</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a href="/images/church_4.jpg" data-lightbox="/images/church_4.jpg" class="img-holder"><img
+                                class="img-responsive"
+                                src="/images/church_5.jpg"
+                        ></a>
+                        <div class="desc">
+                            <h3 style="color: black;"><b>
+                                Join us to praise Lord Jesus !
+                            </b></h3>
+                            <p style="color: black;">
+                                <i> "Praise the Lord.
+                                    Praise God in his sanctuary;
+                                    praise him in his mighty heavens.
+                                    <br>Praise him for his acts of power;
+                                    praise him for his surpassing greatness.
+                                    <br>Praise him with the sounding of the trumpet,
+                                    praise him with the harp and lyre,
+                                    <br>praise him with timbrel and dancing,
+                                    praise him with the strings and pipe,
+                                    <br> praise him with the clash of cymbals,
+                                    praise him with resounding cymbals.
+                                    <br>Let everything that has breath praise the Lord.
+                                    Praise the Lord." </i><br>
+                                <b>Psaumes 150</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col-sm-4">
-            <h3><b>
-                Join us to praise Lord Jesus !
-            </b></h3>
-            <a href="/images/church_4.jpg" data-lightbox="roadtrip"><img id="church_5" src="/images/church_5.jpg"
-                                                                         alt=""/></a>
-            <br><br>
-            <p class="lead">
-                <i> "Louez l'Eternel ! Louez Dieu dans son sanctuaire ! Louez-le dans l'étendue, où éclate sa puissance
-                    !<br>
-                    Louez-le pour ses hauts faits ! Louez-le selon l'immensité de sa grandeur !<br>
-                    Louez-le au son de la trompette ! Louez-le avec le luth et la harpe !<br>
-                    Louez-le avec le tambourin et avec des danses ! Louez-le avec les instruments à cordes et le
-                    chalumeau ! <br>
-                    Louez-le avec les cymbales sonores ! Louez-le avec les cymbales retentissantes !<br>
-                    Que tout ce qui respire loue l'Eternel ! Louez l'Eternel ! " </i><br>
-                <b>Psaumes 150</b>
-            </p>
-
+        <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center animate-box">
+                    <p>En plus de la célébration du dimanche, nous avons divers groupes qui se réunissent en semaine
+                        dans une atmosphère fraternelle et conviviale. Jeunes et moins jeunes, hommes et femmes,
+                        découvrez ces groupes et trouvez votre place !.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="300" data-speed="50"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Membres</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Ministères</span>
+                        </div>
+                        <div class="clearfix visible-sm-block visible-xs-block"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="6" data-speed="1"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Classes</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="10"
+                                  data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">Activités</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div><!-- END container-wrap -->
+
+    <div class="container-wrap">
+        <footer id="fh5co-footer" role="contentinfo">
+            <div w3-include-html="/html/footer.html"></div>
+        </footer>
+    </div><!-- END container-wrap -->
 </div>
-<footer>
-    <div w3-include-html="/html/footer.html"></div>
-</footer>
 
-<script src="/javascripts/jquery-3.1.1.min.js"></script>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="/javascripts/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="/javascripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="/javascripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="/javascripts/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="/javascripts/jquery.flexslider-min.js"></script>
+<!-- Carousel -->
+<script src="/javascripts/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="/javascripts/jquery.magnific-popup.min.js"></script>
+<script src="/javascripts/magnific-popup-options.js"></script>
+<!-- Counters -->
+<script src="/javascripts/jquery.countTo.js"></script>
+<!-- Main -->
+<script src="/javascripts/main.js"></script>
+
 <script src="/javascripts/lightbox/lightbox.js"></script>
 <script>
     lightbox.option({
@@ -86,11 +303,9 @@
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script src="/javascripts/exploring/js/index.js"></script>
-<script src="/javascripts/bootstrap-3.3.7.min.js"></script>
 <script src="/javascripts/w3.js"></script>
 <script> w3.includeHTML();</script>
+
 </body>
 </html>
-
 

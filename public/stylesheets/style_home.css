@@ -496,12 +496,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-light-grey {
   background: #658361;
 }
+.fh5co-light-grey_2 {
+  background: white;
+}
+
 .fh5co-light-grey_bis {
   background: #658361;
 }
-.fh5co-light-grey_0 h3{
-    color: black;
-}
+
 .fh5co-light-grey_bis p{
   color: white;
 }
