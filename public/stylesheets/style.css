@@ -237,15 +237,13 @@ footer {
         overflow: hidden !important;
     }
 
-    #head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
+    #pasteur_main,#head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
     #groupe_intercession_head, #intercession_1, #intercession_2, #groupe_louange_head, #louange_1, #louange_2,#club,
     #club_1, #club_2, #club_3, #groupe_femmes_head, #femmes_2, #femmes_1, #equipe_accueil, #equipe_accueil_1,
     #equipe_accueil_2, #equipe_media, #equipe_media_1, #chant_nouveau_belgique, #belgique_1, #belgique_2,
     #chant_nouveau_dieuze, #dieuze_1, #dieuze_2, #church_1, #tata_vicky, #church_3, #church_5, #russophone,
     #groupe_russophone, #church_6, #louange_team, #groupe_russophone_head, #groupe_anglophonne_head, #logo,
     #veille, #nuit,#international{
-        width: 190px;
-        height: 190px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -335,15 +333,16 @@ footer {
         overflow: hidden !important;
     }
 
-    #head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
+    #pasteur_main,#head_church, #media, #iframe_video, #view, #bulle, #groupe_jeune_head, #jeunesse_1, #iframe_video_flashmod,
     #groupe_intercession_head, #intercession_1, #intercession_2, #groupe_louange_head, #louange_1, #louange_2,
     #club_1, #club_2, #club_3, #groupe_femmes_head, #femmes_2, #femmes_1, #equipe_accueil, #equipe_accueil_1,
     #equipe_accueil_2, #equipe_media, #equipe_media_1, #chant_nouveau_belgique, #belgique_1, #belgique_2,
     #chant_nouveau_dieuze, #dieuze_1, #dieuze_2, #church_1, #tata_vicky, #church_3, #church_5, #russophone,
     #groupe_russophone, #church_6, #louange_team, #groupe_russophone_head, #groupe_anglophonne_head, #logo,
     #veille, #nuit,#international {
-        width: 250px;
-        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #plan_acces_map, #contact_us, #bus_tram {
